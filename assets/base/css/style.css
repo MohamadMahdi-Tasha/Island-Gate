@@ -30,19 +30,35 @@ ul, ol, li {margin: 0 !important;}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
 .dv-text-darker-grey {color: var(--darker-grey) !important;}
 .dv-dark-bg {background-color: rgba(0,0,0,.2);z-index: -1;}
-a:not(nav > a:first-of-type) {z-index: -2;}
-.dv-header-init-links, .dv-dark-bg {
-    left: 0;
+.dv-nav-links-init {left: 0;}
+.dv-header-list-in-inner-links > li:not(:last-of-type) {margin-bottom: .25rem !important;}
+.dv-nav-left-side-li {height: 30px;}
+.dv-dark-bg {background-color: rgba(0,0,0,.2);left: 0;}
+.dv-nav-li-link:after,
+.dv-header-list-in-inner-links,
+.dv-nav-links-init,
+.dv-dark-bg {
     opacity: 0;
     pointer-events: none;
+    transition: .3s;
+}
+
+.dv-nav-li-link:after {
+    content: '>';
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 2rem;
 }
 
 /*Hover, Focus,  active, ...*/
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: var(--darkest-grey);}
-.nav-link:hover ~ .dv-header-init-links,
-.dv-header-init-links:hover,
-.nav-link:hover ~ .dv-dark-bg,
-.dv-header-init-links:hover ~ .dv-dark-bg {
-    opacity: 1;
-    pointer-events: visible;
+.dv-header-list-in-inner-links a:hover {text-decoration: underline !important;}
+.dv-nav-left-side-li:hover > .dv-header-list-in-inner-links,
+.dv-nav-left-side-li:hover > .dv-nav-li-link:after,
+.nav-link:hover ~ .dv-nav-links-init,
+.dv-nav-links-init:hover,
+.dv-nav-links-init:hover ~ .dv-dark-bg,
+.nav-link:hover ~ .dv-dark-bg{
+    opacity: 1 !important;
+    pointer-events: visible !important;
 }

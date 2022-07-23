@@ -29,41 +29,291 @@
     <!--Nav List-->
     <ul class="nav align-items-center justify-content-between w-100 container-xxl px-4">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><img src="assets/base/img/img-logo-typo.png" alt="Island Gate"></a>
+            <a class="nav-link" href="#"><img src="assets/base/img/img-logo-typo.png" alt="Island Gate"></a>
             <!--Init Links-->
-            <div class="bg-white position-absolute w-100 dv-header-init-links d-flex justify-content-center gap-3 dv-header-init-links dv-transition">
-                <div class="container-xxl p-5 d-flex flex-wrap justify-content-between align-items-center">
+            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
+                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
                     <!--Left Side-->
-                    <div>
-                        <h5 class="dv-text-darkest-grey mb-5">ISLAND GATE</h5>
-                        <ul class="list-unstyled d-flex flex-column gap-2">
-                            <li><a class="dv-text-darker-grey fs-6" href="#">About Us</a></li>
-                            <li><a class="dv-text-darker-grey fs-6" href="#">Management</a></li>
-                            <li><a class="dv-text-darker-grey fs-6" href="#">Health Page</a></li>
-                            <li><a class="dv-text-darker-grey fs-6" href="#">Human Recourses</a></li>
-                            <li><a class="dv-text-darker-grey fs-6" href="#">Support</a></li>
-                            <li><a class="dv-text-darker-grey fs-6" href="#">Contact Us</a></li>
-                            <li><a class="dv-text-darker-grey fs-6" href="#">Site Map</a></li>
+                    <div class="w-50">
+                        <h5 class="mb-3 dv-text-darkest-grey">ISLAND GATE</h5>
+                        <ul class="list-unstyled">
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">About Us</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">About Island Gate</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Mission & Vision</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Management</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">Management Massage</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Organization Structure</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Health Page</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CITIZEN Health Presentation</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">L'Docile Presentation</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Human Resources</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">Carers</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Graduate Support</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Support</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">Product Catalog</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Instruction Manuals</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Become Distributor</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Request Repair</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">Register Your Device</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Contact Us</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">Suggestion Or Comments</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Site Map</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">Websites Sections And Page</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <!--Right Side-->
-                    <div class="d-inline-flex align-items-start justify-content-between">
-                        <img src="assets/base/img/nav/img-logo.png" alt="Logo" class="me-3 w-75">
-                        <button class="p-2 bg-transparent border-0">x</button>
+                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                        <img src="assets/base/img/nav/img-logo.png" alt="Logo">
                     </div>
                 </div>
             </div>
-            <!--Dark bg-->
-            <div class="dv-dark-bg w-100 h-100 position-absolute dv-transition"></div>
+            <!--Dark Bg-->
+            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">CITIZEN HEALTHCARE</a>
+            <!--Init Links-->
+            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
+                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
+                    <!--Left Side-->
+                    <div class="w-50">
+                        <h5 class="mb-3 dv-text-darkest-grey">CITIZEN HEALTHCARE</h5>
+                        <ul class="list-unstyled">
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Arm Blood Pressure Monitors</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CH452 - CH452AC - CH452BCN</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH453 - CH453AC - CH453BCN</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CHU304 - CHU305</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CHU503</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH456</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Wrist Blood Pressure Monitors</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CH617</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH618</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH650 - CH650BCN</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH657 - CH657BCN</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Stylish Black BPM</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CH452BCN</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH453BCN</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH650BCN</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CH657BCN</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Thermometers</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CTA 301</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CTA 302</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CTA 303</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Thermometers</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CTD 504 - CTD 505</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CTD 711</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Compressor Nebulizers</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">GC806</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Body Scales</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">HMS324</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Right Side-->
+                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                        <img width="100%" src="assets/base/img/nav/img-citizen-healthcare.png" alt="healthcare">
+                    </div>
+                </div>
+            </div>
+            <!--Dark Bg-->
+            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">CITIZEN CALCULATORS</a>
+            <!--Init Links-->
+            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
+                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
+                    <!--Left Side-->
+                    <div class="w-50">
+                        <h5 class="mb-3 dv-text-darkest-grey">CITIZEN CALCULATORS</h5>
+                        <ul class="list-unstyled">
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Desktop Calculators</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">SDC444S</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC554S</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC664S</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC760N</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Semi Desktop Calculators</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">SDC395N</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC660II</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC640II</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC868L</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Mini Desktop Calculators</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">SDC022SR</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC805NR</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC810NR - NR NV - NR WH</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SDC812NR - NR NV - NR WH</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Check & Correct</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CT500JS</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CT500VII</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CT555N</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CT600J</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CT666N</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">New Buisiness Line</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">CMB801-BK</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CMB1001-BK</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CMB1201-BK</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CDB1201-BK</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CDB1401-BK</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">CDB1601-BK</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Pocket Calculator</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">LC110NR</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">LC210NR</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">LC310NR</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SLD100NR</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">SLD200NR</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Scientific Calculators</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">SR260N - NGR - NPU</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Right Side-->
+                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                        <img width="100%" src="assets/base/img/nav/img-calcs.jpg" alt="CITIZEN CALCULATORS">
+                    </div>
+                </div>
+            </div>
+            <!--Dark Bg-->
+            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">L'DOCILE HOMECARE</a>
+            <!--Init Links-->
+            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
+                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
+                    <!--Left Side-->
+                    <div class="w-50">
+                        <h5 class="mb-3 dv-text-darkest-grey">L'DOCILE HOMECARE</h5>
+                        <ul class="list-unstyled">
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Body Scales</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">LDBS2000</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">LDBS3200</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">LDBS2022</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Thermometers</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">LDTR1822</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">LDTR1832</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Compressor Neutralizers</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">LDNB2317</a></li>
+                                    <li><a class="dv-text-darker-grey" href="#">LDNB2320</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Spray Dispenser</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">LDSD1020</a></li>
+                                </ul>
+                            </li>
+                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Blood Glucometer System</a>
+                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                    <li><a class="dv-text-darker-grey" href="#">LDBG02</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Right Side-->
+                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                        <img width="100%" src="assets/base/img/nav/img-homecare.png" alt="homecare">
+                    </div>
+                </div>
+            </div>
+            <!--Dark Bg-->
+            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
         </li>
     </ul>
 </nav>
@@ -143,7 +393,7 @@
                     CITIZEN <br>
                     Healthcare
                 </a>
-                <ul class="nav flex-column">
+                <ul class="nav flex-column mt-3">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Arm Blood Pressure Monitors</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Wrist Blood Pressure Monitors</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Stylish Black BPM</a></li>
@@ -158,7 +408,7 @@
                     CITIZEN <br>
                     Calculators
                 </a>
-                <ul class="nav flex-column">
+                <ul class="nav flex-column mt-3">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Desktop</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Semi-Desktop</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mini-Desktop</a></li>
@@ -173,7 +423,7 @@
                     L'Docile <br>
                     Homecare
                 </a>
-                <ul class="nav flex-column">
+                <ul class="nav flex-column mt-3">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Digital Body Scales</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Infrared Thermometers</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Compressor Nebulizers</a></li>
@@ -186,7 +436,7 @@
                     Island<br>
                     Gate
                 </a>
-                <ul class="nav flex-column">
+                <ul class="nav flex-column mt-3">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Management Message</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Health Page</a></li>
