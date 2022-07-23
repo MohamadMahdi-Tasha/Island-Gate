@@ -28,8 +28,21 @@ ul, ol, li {margin: 0 !important;}
 .dv-fourth-bg, section:nth-of-type(4) {height: 900px;}
 .dv-fourth-section-bottom-side > img{margin-bottom: -50rem !important;}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
-.dv-header-init-links {left: 0;}
 .dv-text-darker-grey {color: var(--darker-grey) !important;}
+.dv-dark-bg {background-color: rgba(0,0,0,.2);z-index: -1;}
+a:not(nav > a:first-of-type) {z-index: -2;}
+.dv-header-init-links, .dv-dark-bg {
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
 
 /*Hover, Focus,  active, ...*/
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: var(--darkest-grey);}
+.nav-link:hover ~ .dv-header-init-links,
+.dv-header-init-links:hover,
+.nav-link:hover ~ .dv-dark-bg,
+.dv-header-init-links:hover ~ .dv-dark-bg {
+    opacity: 1;
+    pointer-events: visible;
+}
