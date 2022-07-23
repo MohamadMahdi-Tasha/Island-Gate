@@ -23,7 +23,13 @@ ul, ol, li {margin: 0 !important;}
 .transition {transition: .3s;}
 .dv-second-section-bottom-item {height: 0;opacity: 0;}
 .dv-second-section-bottom-item.dv-current {height: auto;opacity: 1;}
-.dv-third-bg {inset: 0;z-index: -1;object-fit: cover;height: 652px;}
+.dv-third-bg, .dv-fourth-bg {inset: 0;z-index: -1;object-fit: cover;}
+.dv-third-bg {height: 652px;}
+.dv-fourth-bg, section:nth-of-type(4) {height: 900px;}
+.dv-fourth-section-bottom-side > img{
+    margin-bottom: -50rem !important;
+
+}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
 
 /*Hover, Focus,  active, ...*/
