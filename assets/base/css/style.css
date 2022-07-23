@@ -20,7 +20,7 @@ ul, ol, li {margin: 0 !important;}
 .dv-header-top-side {background-color: var(--grey);color: var(--darker-grey);}
 .nav-item > a{color: var(--darker-grey) !important;}
 .dv-text-darkest-grey {color: var(--darkest-grey);}
-.transition {transition: .3s;}
+.dv-transition {transition: .5s;}
 .dv-second-section-bottom-item {height: 0;opacity: 0;}
 .dv-second-section-bottom-item.dv-current {height: auto;opacity: 1;}
 .dv-third-bg, .dv-fourth-bg {inset: 0;z-index: -1;object-fit: cover;}
