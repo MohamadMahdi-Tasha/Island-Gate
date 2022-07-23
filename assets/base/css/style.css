@@ -28,6 +28,8 @@ ul, ol, li {margin: 0 !important;}
 .dv-fourth-bg, section:nth-of-type(4) {height: 900px;}
 .dv-fourth-section-bottom-side > img{margin-bottom: -50rem !important;}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
+.dv-header-init-links {left: 0;}
+.dv-text-darker-grey {color: var(--darker-grey) !important;}
 
 /*Hover, Focus,  active, ...*/
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: var(--darkest-grey);}
