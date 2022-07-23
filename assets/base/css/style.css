@@ -32,8 +32,20 @@ ul, ol, li {margin: 0 !important;}
 .dv-dark-bg {background-color: rgba(0,0,0,.2);z-index: -1;}
 .dv-nav-links-init {left: 0;}
 .dv-header-list-in-inner-links > li:not(:last-of-type) {margin-bottom: .25rem !important;}
-.dv-nav-left-side-li {height: 30px;}
+.dv-nav-left-side-li > ul a {white-space: nowrap;}
 .dv-dark-bg {background-color: rgba(0,0,0,.2);left: 0;}
+.dv-nav-left-side-li{position:relative;}
+.dv-nav-left-side-li > ul {height: 30px;}
+
+.dv-nav-left-side-li > ul.dv-long-list {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    height: auto;
+    transform: translateX(-100%) translateY(-50%);
+    z-index: 1000;
+}
+
 .dv-nav-li-link:after,
 .dv-header-list-in-inner-links,
 .dv-nav-links-init,
