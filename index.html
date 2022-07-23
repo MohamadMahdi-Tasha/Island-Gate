@@ -186,6 +186,9 @@
 <!--Js Linkings-->
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script>
+
+    // A Function That Removes Class Of 'dv-current' From Current Showing Image (In Second Section) And Checks IF Next Element Of It
+    // Exists . If It Exists Then Shows It. Otherwise Shows First Image
     function showNextItem() {
         const currentSecondSectionItem = document.querySelector('.dv-second-section-bottom-item.dv-current');
         const firstBottomSecondSection = document.querySelector('.dv-second-section-bottom-item.dv-first');
@@ -197,7 +200,8 @@
             firstBottomSecondSection.classList.add('dv-current');
     }
 
-    setInterval(showNextItem, 3000);
+    // Calling 'showNextItem' Function Over And Over Again In 5 Seconds (5000ms)
+    setInterval(showNextItem, 5000);
 </script>
 </body>
 </html>
