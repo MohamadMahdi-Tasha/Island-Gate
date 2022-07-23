@@ -19,17 +19,14 @@ ul, ol, li {margin: 0 !important;}
 
 .dv-header-top-side {background-color: var(--grey);color: var(--darker-grey);}
 .nav-item > a{color: var(--darker-grey) !important;}
-.dv-titles {color: var(--darkest-grey);}
+.dv-text-darkest-grey {color: var(--darkest-grey);}
 .transition {transition: .3s;}
 .dv-second-section-bottom-item {height: 0;opacity: 0;}
 .dv-second-section-bottom-item.dv-current {height: auto;opacity: 1;}
 .dv-third-bg, .dv-fourth-bg {inset: 0;z-index: -1;object-fit: cover;}
 .dv-third-bg {height: 652px;}
 .dv-fourth-bg, section:nth-of-type(4) {height: 900px;}
-.dv-fourth-section-bottom-side > img{
-    margin-bottom: -50rem !important;
-
-}
+.dv-fourth-section-bottom-side > img{margin-bottom: -50rem !important;}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
 
 /*Hover, Focus,  active, ...*/
