@@ -23,7 +23,7 @@
 </head>
 <body>
 <!--Header / Top Side Nav Bar-->
-<nav class="w-100 d-flex flex-column justify-content-center align-items-center mb-5">
+<nav class="d-flex flex-column justify-content-center align-items-center mb-5">
     <!--Top Side-->
     <a class="fst-italic transition w-100 text-center px-5 dv-header-top-side" href="#">For CITIZEN Healthcare Products 5 Years Warranty Registration please press here</a>
     <!--Nav List-->
@@ -45,23 +45,23 @@
     </ul>
 </nav>
 <!--First Section-->
-<section class="w-100 d-flex justify-content-center">
-    <a href="#" class="container-xxl px-5">
+<section class="d-flex justify-content-center mb-5">
+    <a href="#" class="container-xxl p-5">
         <!--Top Side-->
-        <div class="d-flex flex-wrap justify-content-between mb-3">
+        <div class="d-flex flex-wrap justify-content-between mb-5 gap-3">
             <h1 class="dv-titles">Healthcare</h1>
             <img src="assets/base/img/img-citizen-logo-dark.png" alt="Citizen Healthcare">
         </div>
         <!--Bottom Side-->
-        <div class="d-flex justify-content-center align-items-center"><img src="assets/base/img/first-section/img-system.png" alt="System"></div>
+        <div class="d-flex justify-content-center align-items-center"><img width="30%" src="assets/base/img/first-section/img-system.png" alt="System"></div>
     </a>
 </section>
 <!--Second Section-->
-<section class="d-none">
-    <a href="#">
+<section class="d-flex justify-content-center mb-5">
+    <a href="#" class="container-xxl bg-black p-5">
         <!--Top Side-->
-        <div>
-            <div>
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-5 gap-3">
+            <div class="text-white">
                 <h1>STYLISH BLACK</h1>
                 <h5>Blood Pressure Monitors</h5>
             </div>
@@ -69,10 +69,10 @@
         </div>
         <!--Bottom Side-->
         <div>
-            <img src="assets/base/img/second-section/img-1.jpg" alt="Image 1">
-            <img src="assets/base/img/second-section/img-2.jpg" alt="Image 2">
-            <img src="assets/base/img/second-section/img-3.jpg" alt="Image 3">
-            <img src="assets/base/img/second-section/img-4.jpg" alt="Image 4">
+            <img class="w-100 transition dv-second-section-bottom-item dv-current dv-first" src="assets/base/img/second-section/img-1.jpg" alt="Image 1">
+            <img class="w-100 transition dv-second-section-bottom-item" src="assets/base/img/second-section/img-2.jpg" alt="Image 2">
+            <img class="w-100 transition dv-second-section-bottom-item" src="assets/base/img/second-section/img-3.jpg" alt="Image 3">
+            <img class="w-100 transition dv-second-section-bottom-item" src="assets/base/img/second-section/img-4.jpg" alt="Image 4">
         </div>
     </a>
 </section>
@@ -185,5 +185,19 @@
 </footer>
 <!--Js Linkings-->
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script>
+    function showNextItem() {
+        const currentSecondSectionItem = document.querySelector('.dv-second-section-bottom-item.dv-current');
+        const firstBottomSecondSection = document.querySelector('.dv-second-section-bottom-item.dv-first');
+        const nextElementOfCurrent = currentSecondSectionItem.nextElementSibling;
+
+        currentSecondSectionItem.classList.remove('dv-current');
+        (nextElementOfCurrent !== null) ?
+            nextElementOfCurrent.classList.add('dv-current') :
+            firstBottomSecondSection.classList.add('dv-current');
+    }
+
+    setInterval(showNextItem, 3000);
+</script>
 </body>
 </html>

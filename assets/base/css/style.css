@@ -21,6 +21,8 @@ ul, ol, li {margin: 0 !important;}
 .nav-item > a{color: var(--darker-grey) !important;}
 .dv-titles {color: var(--darkest-grey);}
 .transition {transition: .3s;}
+.dv-second-section-bottom-item {height: 0;opacity: 0;}
+.dv-second-section-bottom-item.dv-current {height: auto;opacity: 1;}
 
 /*Hover, Focus,  active, ...*/
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: var(--darkest-grey);}
