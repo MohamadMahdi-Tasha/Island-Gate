@@ -1,0 +1,8 @@
+/*Variables*/
+:root {--grey: rgba(127,127,127,0.3);}
+
+/*Styles*/
+img {pointer-events: none;}
+a {text-decoration: none;}
+button {cursor: pointer;}
+ul, ol, li {margin: 0 !important;}
