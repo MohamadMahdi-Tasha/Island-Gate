@@ -38,6 +38,7 @@ ul, ol, li {margin: 0 !important;}
 .dv-nav-left-side-li > ul {height: 30px;}
 a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
+.container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 
 .nav-link {
     height: 100% !important;
