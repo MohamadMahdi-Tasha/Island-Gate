@@ -23,52 +23,77 @@
 </head>
 <body>
 <!--Header / Top Side Nav Bar-->
-<nav class="d-flex flex-column justify-content-center align-items-center mb-5 bg-white">
-    <!--Top Side-->
-    <a class="fst-italic dv-transition w-100 text-center px-5 dv-header-top-side" href="#">For CITIZEN Healthcare Products 5 Years Warranty Registration please press here</a>
-    <!--Nav List-->
-    <ul class="nav align-items-center justify-content-between w-100 container-xxl px-4">
-        <!--Add Class Of 'dv-long-list' To Long Inner Lists-->
-        <li class="nav-item">
-            <a class="nav-link" href="#"><img src="assets/base/img/img-logo-typo.png" alt="Island Gate"></a>
-            <!--Init Links-->
-            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
-                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
-                    <!--Left Side-->
-                    <div class="w-50">
-                        <h5 class="mb-3 dv-text-darkest-grey">ISLAND GATE</h5>
-                        <ul class="list-unstyled">
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">About Us</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+<nav class="navbar d-flex justify-content-center navbar-expand-lg bg-white px-lg-5 py-lg-3">
+    <div class="container-xxl">
+        <button class="navbar-toggler btn btn-secondary text-white mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav w-100 justify-content-between w-100">
+                <!--Mobile Items-->
+                <li class="nav-item d-lg-none">
+                    <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1" aria-expanded="false" class="nav-link justify-content-between" href="#">
+                        <img src="assets/base/img/img-logo-typo.png" alt="Island Gate">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <div class="collapse p-2 border rounded" id="nav-collapse-1">
+                        <ul class="list-unstyled w-100">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-1" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    About Us
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-1">
                                     <li><a class="dv-text-darker-grey" href="#">About Island Gate</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">Mission & Vision</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Management</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-2" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Management
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-2">
                                     <li><a class="dv-text-darker-grey" href="#">Management Massage</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">Organization Structure</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Health Page</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-3" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Health Page
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-3">
                                     <li><a class="dv-text-darker-grey" href="#">CITIZEN Health Presentation</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">L'Docile Presentation</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Human Resources</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-4" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Human Resources
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-4">
                                     <li><a class="dv-text-darker-grey" href="#">Carers</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">Graduate Support</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Support</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-5" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Support
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-5">
                                     <li><a class="dv-text-darker-grey" href="#">Product Catalog</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">Instruction Manuals</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">Become Distributor</a></li>
@@ -76,42 +101,49 @@
                                     <li><a class="dv-text-darker-grey" href="#">Register Your Device</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Contact Us</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
-                                    <li><a class="dv-text-darker-grey" href="#">Suggestion Or Comments</a></li>
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-6" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Contact Us
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-6">
+
+                                    <li><a class="dv-text-darker-grey" href="#">Websites Sections And Page</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Site Map</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
-                                    <li><a class="dv-text-darker-grey" href="#">Websites Sections And Page</a></li>
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-1-inner-7" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Site Map
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-1-inner-7">
+                                    <li><a class="dv-text-darker-grey" href="#">Suggestion Or Comments</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!--Right Side-->
-                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
-                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
-                        <img src="assets/base/img/nav/img-logo.png" alt="Logo">
-                    </div>
-                </div>
-            </div>
-            <!--Dark Bg-->
-            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">CITIZEN HEALTHCARE</a>
-            <!--Init Links-->
-            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
-                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
-                    <!--Left Side-->
-                    <div class="w-50">
-                        <h5 class="mb-3 dv-text-darkest-grey">CITIZEN HEALTHCARE</h5>
-                        <ul class="list-unstyled">
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Arm Blood Pressure Monitors</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2" aria-expanded="false" aria-controls="collapseExample" class="nav-link justify-content-between" href="#">
+                        CITIZEN HEALTHCARE
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <div class="collapse p-2 border rounded" id="nav-collapse-2">
+                        <ul class="list-unstyled w-100">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-1" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Arm Blood Pressure Monitors
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-1">
                                     <li><a class="dv-text-darker-grey" href="#">CH452 - CH452AC - CH452BCN</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH453 - CH453AC - CH453BCN</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CHU304 - CHU305</a></li>
@@ -119,102 +151,143 @@
                                     <li><a class="dv-text-darker-grey" href="#">CH456</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Wrist Blood Pressure Monitors</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-2" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Wrist Blood Pressure Monitors
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-2">
                                     <li><a class="dv-text-darker-grey" href="#">CH617</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH618</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH650 - CH650BCN</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH657 - CH657BCN</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Stylish Black BPM</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                               <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-3" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                   Stylish Black BPM
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-3">
                                     <li><a class="dv-text-darker-grey" href="#">CH452BCN</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH453BCN</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH650BCN</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CH657BCN</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Thermometers</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-5" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Digital Thermometers
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-5">
                                     <li><a class="dv-text-darker-grey" href="#">CTA 301</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CTA 302</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CTA 303</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Thermometers</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-6" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Infrared Thermometers
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-6">
                                     <li><a class="dv-text-darker-grey" href="#">CTD 504 - CTD 505</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CTD 711</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Compressor Nebulizers</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-7" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Compressor Nebulizers
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-7">
                                     <li><a class="dv-text-darker-grey" href="#">GC806</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Body Scales</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-2-inner-8" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Digital Body Scales
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-2-inner-8">
                                     <li><a class="dv-text-darker-grey" href="#">HMS324</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!--Right Side-->
-                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
-                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
-                        <img width="100%" src="assets/base/img/nav/img-citizen-healthcare.png" alt="healthcare">
-                    </div>
-                </div>
-            </div>
-            <!--Dark Bg-->
-            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">CITIZEN CALCULATORS</a>
-            <!--Init Links-->
-            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
-                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
-                    <!--Left Side-->
-                    <div class="w-50">
-                        <h5 class="mb-3 dv-text-darkest-grey">CITIZEN CALCULATORS</h5>
-                        <ul class="list-unstyled">
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Desktop Calculators</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3" aria-expanded="false" aria-controls="collapseExample" class="nav-link justify-content-between" href="#">
+                        CITIZEN CALCULATORS
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <div class="collapse p-2 border rounded" id="nav-collapse-3">
+                        <ul class="list-unstyled w-100">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-1" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Desktop Calculators
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-1">
                                     <li><a class="dv-text-darker-grey" href="#">SDC444S</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC554S</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC664S</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC760N</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Semi Desktop Calculators</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-2" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Semi Desktop Calculators
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-2">
                                     <li><a class="dv-text-darker-grey" href="#">SDC395N</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC660II</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC640II</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC868L</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Mini Desktop Calculators</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-3" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Mini Desktop Calculators
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-3">
                                     <li><a class="dv-text-darker-grey" href="#">SDC022SR</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC805NR</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC810NR - NR NV - NR WH</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">SDC812NR - NR NV - NR WH</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Check & Correct</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-5" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Check & Correct
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-5">
                                     <li><a class="dv-text-darker-grey" href="#">CT500JS</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CT500VII</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CT555N</a></li>
@@ -222,10 +295,14 @@
                                     <li><a class="dv-text-darker-grey" href="#">CT666N</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">New Buisiness Line</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition dv-long-list">
-                                    <li><a class="dv-text-darker-grey" href="#">CMB801-BK</a></li>
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-6" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    New Buisiness Line
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-6">
                                     <li><a class="dv-text-darker-grey" href="#">CMB1001-BK</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CMB1201-BK</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">CDB1201-BK</a></li>
@@ -233,9 +310,14 @@
                                     <li><a class="dv-text-darker-grey" href="#">CDB1601-BK</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Pocket Calculator</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition dv-long-list">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-7" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Pocket Calculator
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-7">
                                     <li><a class="dv-text-darker-grey" href="#">LC110NR</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">LC210NR</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">LC310NR</a></li>
@@ -243,80 +325,403 @@
                                     <li><a class="dv-text-darker-grey" href="#">SLD200NR</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Scientific Calculators</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-3-inner-8" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Scientific Calculator
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-3-inner-8">
                                     <li><a class="dv-text-darker-grey" href="#">SR260N - NGR - NPU</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!--Right Side-->
-                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
-                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
-                        <img width="100%" src="assets/base/img/nav/img-calcs.jpg" alt="CITIZEN CALCULATORS">
-                    </div>
-                </div>
-            </div>
-            <!--Dark Bg-->
-            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">L'DOCILE HOMECARE</a>
-            <!--Init Links-->
-            <div class="w-100 d-flex justify-content-center position-absolute dv-nav-links-init">
-                <div class="container-xxl bg-white px-5 py-3 d-inline-flex align-items-center justify-content-between gap-5">
-                    <!--Left Side-->
-                    <div class="w-50">
-                        <h5 class="mb-3 dv-text-darkest-grey">L'DOCILE HOMECARE</h5>
-                        <ul class="list-unstyled">
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Body Scales</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-4" aria-expanded="false" aria-controls="collapseExample" class="nav-link justify-content-between" href="#">
+                        L'DOCILE HOMECARE
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <div class="collapse rounded p-2 border" id="nav-collapse-4">
+                        <ul class="list-unstyled w-100">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-4-inner-1" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Digital Body Scales
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-4-inner-1">
                                     <li><a class="dv-text-darker-grey" href="#">LDBS2000</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">LDBS3200</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">LDBS2022</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Thermometers</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-4-inner-2" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Infrared Thermometers
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-4-inner-2">
                                     <li><a class="dv-text-darker-grey" href="#">LDTR1822</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">LDTR1832</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Compressor Neutralizers</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-4-inner-3" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Compressor Neutralizers
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-4-inner-3">
                                     <li><a class="dv-text-darker-grey" href="#">LDNB2317</a></li>
                                     <li><a class="dv-text-darker-grey" href="#">LDNB2320</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Spray Dispenser</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-4-inner-5" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Infrared Spray Dispenser
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-4-inner-5">
                                     <li><a class="dv-text-darker-grey" href="#">LDSD1020</a></li>
                                 </ul>
                             </li>
-                            <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
-                                <a class="dv-text-darker-grey dv-nav-li-link" href="#">Blood Glucometer System</a>
-                                <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                            <li class="w-100">
+                                <a data-bs-toggle="collapse" data-bs-target="#nav-collapse-4-inner-6" aria-expanded="false" class="dv-text-darker-grey p-1 w-100 d-inline-flex justify-content-between align-items-center" href="#">
+                                    Blood Glucometer System
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </a>
+                                <ul class="collapse list-unstyled ms-3" id="nav-collapse-4-inner-6">
                                     <li><a class="dv-text-darker-grey" href="#">LDBG02</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!--Right Side-->
-                    <div class="w-50 d-flex flex-column justify-content-center align-items-end">
-                        <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
-                        <img width="100%" src="assets/base/img/nav/img-homecare.png" alt="homecare">
+                </li>
+
+                <!--Desktop Items-->
+                <li class="nav-item d-lg-block d-none">
+                    <a class="nav-link" href="#">
+                        <img src="assets/base/img/img-logo-typo.png" alt="Island Gate">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <!--Init Links-->
+                    <div class="w-100 d-flex flex-wrap justify-content-center position-absolute dv-nav-links-init">
+                        <div class="container-xxl bg-white px-lg-5 py-lg-3 d-inline-flex align-items-center justify-content-between gap-5 ">
+                            <!--Left Side-->
+                            <div class="w-50">
+                                <h5 class="mb-3 dv-text-darkest-grey">ISLAND GATE</h5>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">About Us</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">About Island Gate</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Mission & Vision</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Management</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">Management Massage</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Organization Structure</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Health Page</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CITIZEN Health Presentation</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">L'Docile Presentation</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Human Resources</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">Carers</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Graduate Support</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Support</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">Product Catalog</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Instruction Manuals</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Become Distributor</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Request Repair</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">Register Your Device</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Contact Us</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">Suggestion Or Comments</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Site Map</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">Websites Sections And Page</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Right Side-->
+                            <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                                <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                                <img src="assets/base/img/nav/img-logo.png" alt="Logo">
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!--Dark Bg-->
-            <div class="dv-dark-bg position-absolute w-100 h-100"></div>
-        </li>
-    </ul>
+                    <!--Dark Bg-->
+                    <div class="dv-dark-bg position-absolute w-100 vh-100"></div>
+                </li>
+                <li class="nav-item d-lg-block d-none">
+                    <a class="nav-link" href="#">
+                        CITIZEN HEALTHCARE
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <!--Init Links-->
+                    <div class="w-100 d-flex flex-wrap justify-content-center position-absolute dv-nav-links-init">
+                        <div class="container-xxl bg-white px-lg-5 py-lg-3 d-inline-flex align-items-center justify-content-between gap-5">
+                            <!--Left Side-->
+                            <div class="w-50">
+                                <h5 class="mb-3 dv-text-darkest-grey">CITIZEN HEALTHCARE</h5>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Arm Blood Pressure Monitors</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CH452 - CH452AC - CH452BCN</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH453 - CH453AC - CH453BCN</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CHU304 - CHU305</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CHU503</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH456</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Wrist Blood Pressure Monitors</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CH617</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH618</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH650 - CH650BCN</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH657 - CH657BCN</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Stylish Black BPM</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CH452BCN</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH453BCN</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH650BCN</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CH657BCN</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Thermometers</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CTA 301</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CTA 302</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CTA 303</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Thermometers</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CTD 504 - CTD 505</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CTD 711</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Compressor Nebulizers</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">GC806</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Body Scales</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">HMS324</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Right Side-->
+                            <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                                <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                                <img width="100%" src="assets/base/img/nav/img-citizen-healthcare.png" alt="healthcare">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Dark Bg-->
+                    <div class="dv-dark-bg position-absolute w-100 vh-100"></div>
+                </li>
+                <li class="nav-item d-lg-block d-none">
+                    <a class="nav-link" href="#">
+                        CITIZEN CALCULATORS
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <!--Init Links-->
+                    <div class="w-100 d-flex  flex-wrap justify-content-center position-absolute dv-nav-links-init">
+                        <div class="container-xxl bg-white px-lg-5 py-lg-3 d-inline-flex align-items-center justify-content-between gap-5 d-lg-flex">
+                            <!--Left Side-->
+                            <div class="w-50">
+                                <h5 class="mb-3 dv-text-darkest-grey">CITIZEN CALCULATORS</h5>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Desktop Calculators</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">SDC444S</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC554S</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC664S</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC760N</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Semi Desktop Calculators</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">SDC395N</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC660II</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC640II</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC868L</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Mini Desktop Calculators</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">SDC022SR</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC805NR</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC810NR - NR NV - NR WH</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SDC812NR - NR NV - NR WH</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Check & Correct</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">CT500JS</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CT500VII</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CT555N</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CT600J</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CT666N</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">New Buisiness Line</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition dv-long-list">
+                                            <li><a class="dv-text-darker-grey" href="#">CMB801-BK</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CMB1001-BK</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CMB1201-BK</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CDB1201-BK</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CDB1401-BK</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">CDB1601-BK</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Pocket Calculator</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition dv-long-list">
+                                            <li><a class="dv-text-darker-grey" href="#">LC110NR</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">LC210NR</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">LC310NR</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SLD100NR</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">SLD200NR</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Scientific Calculators</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">SR260N - NGR - NPU</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Right Side-->
+                            <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                                <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                                <img width="100%" src="assets/base/img/nav/img-calcs.jpg" alt="CITIZEN CALCULATORS">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Dark Bg-->
+                    <div class="dv-dark-bg position-absolute w-100 vh-100"></div>
+                </li>
+                <li class="nav-item d-lg-block d-none">
+                    <a class="nav-link" href="#">
+                        L'DOCILE HOMECARE
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(118, 118, 118)" class="bi bi-chevron-down d-lg-none" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                    <!--Init Links-->
+                    <div class="w-100 d-flex  flex-wrap justify-content-center position-absolute dv-nav-links-init">
+                        <div class="container-xxl bg-white px-lg-5 py-lg-3 d-inline-flex align-items-center justify-content-between gap-5">
+                            <!--Left Side-->
+                            <div class="w-50">
+                                <h5 class="mb-3 dv-text-darkest-grey">L'DOCILE HOMECARE</h5>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Digital Body Scales</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">LDBS2000</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">LDBS3200</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">LDBS2022</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Thermometers</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">LDTR1822</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">LDTR1832</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Compressor Neutralizers</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">LDNB2317</a></li>
+                                            <li><a class="dv-text-darker-grey" href="#">LDNB2320</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Infrared Spray Dispenser</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">LDSD1020</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="d-flex flex-wrap justify-content-between dv-nav-left-side-li">
+                                        <a class="dv-text-darker-grey dv-nav-li-link" href="#">Blood Glucometer System</a>
+                                        <ul class="list-unstyled dv-header-list-in-inner-links dv-transition">
+                                            <li><a class="dv-text-darker-grey" href="#">LDBG02</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Right Side-->
+                            <div class="w-50 d-flex flex-column justify-content-center align-items-end">
+                                <button class="bg-transparent dv-header-link-close-btn border-0 p-2">x</button>
+                                <img width="100%" src="assets/base/img/nav/img-homecare.png" alt="homecare">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Dark Bg-->
+                    <div class="dv-dark-bg position-absolute w-100 vh-100"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 <!--First Section-->
 <section class="d-flex justify-content-center">

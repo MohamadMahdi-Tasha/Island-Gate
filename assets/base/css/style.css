@@ -36,6 +36,17 @@ ul, ol, li {margin: 0 !important;}
 .dv-dark-bg {background-color: rgba(0,0,0,.2);left: 0;}
 .dv-nav-left-side-li{position:relative;}
 .dv-nav-left-side-li > ul {height: 30px;}
+a[data-bs-toggle='collapse'] > svg {transition: .3s;}
+a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{
+    transform: rotate(180deg);
+}
+
+.nav-link {
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
 .dv-nav-left-side-li > ul.dv-long-list {
     position: absolute;
