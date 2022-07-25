@@ -2,7 +2,7 @@
 :root {
     --grey: rgba(127,127,127,0.3);
     --darker-grey: rgb(118, 118, 118);
-    --darkest-grey: rgb(69, 69, 69);
+    --darkest-grey: #707070;
 }
 
 /*Styles*/
@@ -39,12 +39,14 @@ ul, ol, li {margin: 0 !important;}
 a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
+.dv-object-cover {object-fit: cover;}
 
 .dv-paragraph {
     font-style: italic;
     color: var(--darker-grey);
     margin-bottom: 1rem;
-    font-size:1rem!important
+    font-size:1rem!important;
+    line-height: 30px;
 }
 
 .dv-title {
