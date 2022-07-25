@@ -40,6 +40,19 @@ a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 
+.dv-paragraph {
+    font-style: italic;
+    color: var(--darker-grey);
+    margin-bottom: 1rem;
+    font-size:1rem!important
+}
+
+.dv-title {
+    font-weight: bold;
+    color: var(--darkest-grey);
+    margin-bottom: 1.5rem;
+}
+
 .nav-link {
     height: 100% !important;
     display: flex !important;
