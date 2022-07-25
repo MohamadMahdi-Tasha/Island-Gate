@@ -22,6 +22,15 @@
     <title>Island Gate - Home for CITIZEN Japan and L'Docile Germany products</title>
 </head>
 <body>
+<!-- Modal -->
+<div class="modal fade" id="dv-opening-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body p-0"><a href="#"><video src="assets/base/video-banner.mp4" class="w-100" autoplay muted></video></a></div>
+        </div>
+    </div>
+</div>
 <!--Header / Top Side Nav Bar-->
 <nav class="navbar d-flex flex-column justify-content-center navbar-expand-lg bg-white py-0">
     <a class="dv-header-top-side dv-transition px-2 fs-6 dv-text-darkest-grey fst-italic w-100 text-center" href="#">For CITIZEN Healthcare Products 5 Years Warranty Registration please press here</a>
@@ -868,5 +877,12 @@
 <!--Js Linkings-->
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="assets/base/js/second-section-images.js"></script>
+<script>
+    // Creating New Bootstrap Modal With Id Of 'dv-opening-modal' With No Options
+    const openingModal = new bootstrap.Modal(document.getElementById("dv-opening-modal"), {});
+
+    // Adding Event Listener Of Ready (Its When Page Is Loaded) Then Show openeingModal.
+    document.onreadystatechange = () => openingModal.show();
+</script>
 </body>
 </html>
