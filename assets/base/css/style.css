@@ -110,6 +110,7 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
 
 @media (max-width: 991px) {
     .dv-fourth-sect{background-color: #fff;}
+    .dv-paragraph, .dv-title {line-height: 30px;}
     .dv-fourth-section-bottom-side > img {margin-bottom: 0 !important;}
     .dv-third-bg {height: 100%;}
     .dv-lg-w-100.w-75, .dv-lg-w-100.w-50, .dv-lg-w-100.w-25, .dv-lg-w-100{width: 100% !important;}
