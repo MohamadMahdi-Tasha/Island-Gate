@@ -53,6 +53,7 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
     font-weight: bold;
     color: var(--darkest-grey);
     margin-bottom: 1.5rem;
+    line-height: 40px;
 }
 
 .nav-link {
