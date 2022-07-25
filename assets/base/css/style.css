@@ -72,6 +72,13 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
     margin-left: 2rem;
 }
 
+
+.dv-nav-links-init.dv-closed,
+.dv-nav-links-init.dv-closed ~ .dv-dark-bg{
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
 /*Hover, Focus,  active, ...*/
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: white !important;}
 .dv-header-list-in-inner-links a:hover, .dv-hover-text-decoration:hover {text-decoration: underline !important;}
@@ -81,8 +88,8 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
 .dv-nav-links-init:hover,
 .dv-nav-links-init:hover ~ .dv-dark-bg,
 .nav-link:hover ~ .dv-dark-bg{
-    opacity: 1 !important;
-    pointer-events: visible !important;
+    opacity: 1;
+    pointer-events: visible;
 }
 
 @media (max-width: 991px) {

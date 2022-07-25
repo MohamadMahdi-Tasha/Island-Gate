@@ -22,7 +22,7 @@
     <title>Island Gate - Home for CITIZEN Japan and L'Docile Germany products</title>
 </head>
 <body>
-<!-- Modal -->
+<!--Opening Modal-->
 <div class="modal fade" id="dv-opening-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -878,11 +878,24 @@
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="assets/base/js/second-section-images.js"></script>
 <script>
+    // Variables
+    const headerLinkCloseBtns = document.querySelectorAll('.dv-header-link-close-btn');
+
     // Creating New Bootstrap Modal With Id Of 'dv-opening-modal' With No Options
     const openingModal = new bootstrap.Modal(document.getElementById("dv-opening-modal"), {});
 
     // Adding Event Listener Of Ready (Its When Page Is Loaded) Then Show openeingModal.
     document.onreadystatechange = () => openingModal.show();
+
+    // Adding Event Listener On Each Init Link Close Buttons That Listens TO Click And Class Of 'dv-closed' To Init Link Holder
+    // And Adds Event Listener Of Mouseover To Its Link Holder In Nav And Removes  'dv-closed' From Init Link Holder.
+    headerLinkCloseBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const initLinks = btn.parentElement.parentElement.parentElement;
+            initLinks.classList.add('dv-closed');
+            initLinks.parentElement.addEventListener('mouseover', () => initLinks.classList.remove('dv-closed'))
+        })
+    })
 </script>
 </body>
 </html>
