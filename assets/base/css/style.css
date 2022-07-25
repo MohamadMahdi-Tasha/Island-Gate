@@ -17,7 +17,7 @@ a {text-decoration: none !important;}
 button {cursor: pointer;}
 ul, ol, li {margin: 0 !important;}
 
-.dv-header-top-side {background-color: var(--grey);color: var(--darker-grey);}
+.dv-header-top-side {background-color: var(--grey);}
 .nav-item > a{color: var(--darker-grey) !important;}
 .dv-text-darkest-grey {color: var(--darkest-grey);}
 .dv-transition {transition: .5s;}
@@ -73,7 +73,7 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
 }
 
 /*Hover, Focus,  active, ...*/
-.dv-header-top-side:hover {background-color: var(--darker-grey);color: var(--darkest-grey);}
+.dv-header-top-side:hover {background-color: var(--darker-grey);color: white !important;}
 .dv-header-list-in-inner-links a:hover {text-decoration: underline !important;}
 .dv-nav-left-side-li:hover > .dv-header-list-in-inner-links,
 .dv-nav-left-side-li:hover > .dv-nav-li-link:after,
