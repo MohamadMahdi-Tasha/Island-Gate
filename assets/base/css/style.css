@@ -40,6 +40,33 @@ a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 .dv-object-cover {object-fit: cover;}
+.dv-contact-us-form {grid-template-columns: repeat(2, 1fr);}
+.dv-contact-us-form > :last-of-type {grid-column: span 2;}
+textarea.dv-input {resize: none;height: 150px;}
+.dv-bg-grey {background-color: var(--grey);}
+
+.dv-submit-btn {
+    background-color: var(--darkest-grey);
+    color: white;
+    border: none;
+    width: 25%;
+    padding: .5rem;
+}
+
+.dv-label {
+    font-size: 1rem;
+    color: var(--darkest-grey);
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.dv-input {
+    background-color: var(--grey);
+    padding: .5rem;
+    border: 1px solid  var(--darkest-grey);
+    color: var(--darkest-grey);
+    outline: none;
+}
 
 .dv-paragraph {
     font-style: italic;
@@ -97,6 +124,8 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
 
 /*Hover, Focus,  active, ...*/
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: white !important;}
+.dv-input:focus, .dv-input:hover {background-color: white;}
+.dv-submit-btn:hover {background-color: #4d4d4d;}
 .dv-header-list-in-inner-links a:hover, .dv-hover-text-decoration:hover {text-decoration: underline !important;}
 .dv-nav-left-side-li:hover > .dv-header-list-in-inner-links,
 .dv-nav-left-side-li:hover > .dv-nav-li-link:after,
