@@ -154,4 +154,7 @@ textarea.dv-input {resize: none;height: 150px;}
     .dv-submit-btn {width: 100%;}
 }
 
-@media (max-width: 575px) {  .dv-site-map-left-side-list {grid-template-columns: repeat(1, 1fr);}  }
+@media (max-width: 575px) {
+    .dv-site-map-left-side-list {grid-template-columns: repeat(1, 1fr);}
+    .dv-site-map-left-side-list a{text-align: start}
+}
