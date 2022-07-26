@@ -40,8 +40,6 @@ a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 .dv-object-cover {object-fit: cover;}
-.dv-contact-us-form {grid-template-columns: repeat(2, 1fr);}
-.dv-contact-us-form > :last-of-type {grid-column: span 2;}
 textarea.dv-input {resize: none;height: 150px;}
 .dv-bg-grey {background-color: var(--grey);}
 
@@ -145,4 +143,5 @@ textarea.dv-input {resize: none;height: 150px;}
     .dv-lg-w-100.w-75, .dv-lg-w-100.w-50, .dv-lg-w-100.w-25, .dv-lg-w-100{width: 100% !important;}
     .dv-fourth-bg, section:nth-of-type(4) {height: auto;}
     .dv-support-last-img {height: auto;}
+    .dv-submit-btn {width: 100%;}
 }
