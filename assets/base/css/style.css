@@ -47,6 +47,8 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-site-map-left-side-list a {text-align: center;}
 .dv-site-map-left-side-list > li > a:first-of-type {font-weight: bold;color: var(--darkest-grey);margin-bottom: .5rem;}
 .dv-site-map-left-side-list > li > a:not(:first-of-type) {color: var(--darker-grey);}
+.dv-header-last-items-left-side-card .card-title {letter-spacing: 3px;font-size: .7rem;}
+.dv-header-last-items-left-side-card .card-img-top {width: 100%;height: 100px;}
 
 .dv-submit-btn {
     background-color: var(--darkest-grey);
@@ -131,6 +133,7 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-submit-btn:hover {background-color: #4d4d4d;}
 .dv-header-list-in-inner-links a:hover, .dv-hover-text-decoration:hover,
 .dv-site-map-left-side-list a:hover{text-decoration: underline !important;}
+.dv-header-last-items-left-side-card:hover {transform: translateY(-10px);}
 .dv-nav-left-side-li:hover > .dv-header-list-in-inner-links,
 .dv-nav-left-side-li:hover > .dv-nav-li-link:after,
 .nav-link:hover ~ .dv-nav-links-init,
