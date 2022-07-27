@@ -171,4 +171,5 @@ textarea.dv-input {resize: none;height: 150px;}
 @media (max-width: 575px) {
     .dv-site-map-left-side-list {grid-template-columns: repeat(1, 1fr);}
     .dv-site-map-left-side-list a{text-align: start}
+    .dv-second-section-bottom {height: 280px;}
 }
