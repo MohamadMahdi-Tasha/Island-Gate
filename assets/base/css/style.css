@@ -21,8 +21,7 @@ ul, ol, li {margin: 0 !important;}
 .nav-item > a{color: var(--darker-grey) !important;}
 .dv-text-darkest-grey {color: var(--darkest-grey) !important;}
 .dv-transition {transition: .5s;}
-.dv-second-section-bottom-item {height: 0;opacity: 0;}
-.dv-second-section-bottom-item.dv-current {height: auto;opacity: 1;}
+.dv-second-section-bottom-item.dv-current {opacity: 1;}
 .dv-third-bg, .dv-fourth-bg {inset: 0;z-index: 1 !important;object-fit: cover;}
 .dv-contents {position: relative !important;z-index: 2 !important;}
 .dv-third-bg {height: 652px;}
@@ -50,6 +49,13 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-site-map-left-side-list > li > a:not(:first-of-type) {color: var(--darker-grey);}
 .dv-header-last-items-left-side-card .card-title {letter-spacing: 3px;font-size: .7rem;}
 .dv-header-last-items-left-side-card .card-img-top {width: 100%;height: 100px;}
+
+.dv-second-section-bottom-item {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .dv-submit-btn {
     background-color: var(--darkest-grey);
