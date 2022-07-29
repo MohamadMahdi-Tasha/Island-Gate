@@ -39,7 +39,8 @@ a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 .dv-object-cover {object-fit: cover;}
-.dv-ac-bcn-img {opacity: .5;}
+.dv-top-side-image img {width: 120px;}
+.dv-top-side-image {opacity: .5;}
 textarea.dv-input {resize: none;height: 150px;}
 .dv-bg-grey {background-color: var(--grey);}
 .dv-site-map-left-side-list {grid-template-columns: repeat(5, 1fr);}
@@ -52,6 +53,7 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-nav-left-side-li > ul.dv-long-list {transform: translateY(-50%) translateX(-100%);}
 .dv-second-section-bottom {height: 560px;}
 .dv-ac-bcn-second-section-list > li::marker {content: '»  ';}
+.dv-ac-bcn-second-section-bottom-li {height: 100px;}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(1) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-1.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(2) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-2.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(3) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-3.png');}
@@ -61,9 +63,26 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(7) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-7.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(8) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-8.png');}
 .dv-ch-page-third-section-top-border {height: 1px;background-color: var(--darker-grey);}
+.dv-desktop-page-bottom-calc:nth-of-type(1) > a {background-image: url('../img/desktop/img-1.png');}
+.dv-desktop-page-bottom-calc:nth-of-type(2) > a {background-image: url('../img/desktop/img-2.png');}
+.dv-desktop-page-bottom-calc:nth-of-type(3) > a {background-image: url('../img/desktop/img-3.png');}
+.dv-desktop-page-bottom-calc:nth-of-type(4) > a {background-image: url('../img/desktop/img-4.png');}
+.dv-desktop-page-bottom-calc > a {height: 170px;}
+body > section:last-of-type {margin-bottom: 5rem;}
 
-.dv-ac-bcn-second-section-bottom-li {
-    height: 80px;
+.dv-desktop-page-bottom-calc > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dv-desktop-page-bottom-calc > a:before {
+    color: var(--darker-grey);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.dv-ac-bcn-second-section-bottom-li,
+.dv-desktop-page-bottom-calc > a{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,13 +182,18 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(4):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-battery-life.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(7):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-large-cuff-optional.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(8):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-ac-adaptor-optional.png');}
+.dv-desktop-page-bottom-calc:hover > a {background-image: none;}
+.dv-desktop-page-bottom-calc:nth-of-type(1):hover > a:before {content: 'SDC-444S'}
+.dv-desktop-page-bottom-calc:nth-of-type(2):hover > a:before {content: 'SDC-554S'}
+.dv-desktop-page-bottom-calc:nth-of-type(3):hover > a:before {content: 'SDC-664S'}
+.dv-desktop-page-bottom-calc:nth-of-type(4):hover > a:before {content: 'SDC-760S'}
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: white !important;}
 .dv-input:focus, .dv-input:hover {background-color: white;}
 .dv-submit-btn:hover {background-color: #4d4d4d;}
 .dv-header-list-in-inner-links a:hover, .dv-hover-text-decoration:hover,
 .dv-site-map-left-side-list a:hover{text-decoration: underline !important;}
 .dv-header-last-items-left-side-card:hover {transform: translateY(-10px);}
-.dv-ac-bcn-img:hover {opacity: 1;}
+.dv-top-side-image:hover {opacity: 1;}
 .dv-nav-left-side-li:hover > .dv-header-list-in-inner-links,
 .dv-nav-left-side-li:hover > .dv-nav-li-link:after,
 .nav-link:hover ~ .dv-nav-links-init,
