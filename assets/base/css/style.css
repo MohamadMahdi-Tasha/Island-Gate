@@ -228,4 +228,4 @@ body > section:last-of-type {margin-bottom: 5rem;}
 }
 
 /*For Debug*/
-div.w-100 {border: 3px solid red;}
+div:not(.dv-dark-bg).w-100 {border: 3px solid red;}
