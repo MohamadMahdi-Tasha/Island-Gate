@@ -219,9 +219,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-mq-991-w-50 {width: 50% !important;}
     .dv-mq-991-w-100.w-50 {width: 100% !important;}
     .dv-ch-page-third-section-top-border.w-25 {width: 100% !important;}
-    .dv-desktop-page-bottom-calc > a:before {
-        font-size: 1rem;
-    }
+    .dv-desktop-page-bottom-calc > a:before {font-size: 1rem;}
     .dv-last-subtitle-of-desktop.lh-lg {line-height: normal !important;}
 }
 
@@ -230,6 +228,3 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-site-map-left-side-list a{text-align: start}
     .dv-second-section-bottom {height: 280px;}
 }
-
-/*For Debug*/
-div:not(.dv-dark-bg).w-100 {border: 3px solid red;}
