@@ -60,6 +60,7 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(6) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-6.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(7) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-7.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(8) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-8.png');}
+.dv-ch-page-third-section-top-border {height: 1px;background-color: var(--darker-grey);}
 
 .dv-ac-bcn-second-section-bottom-li {
     height: 80px;
