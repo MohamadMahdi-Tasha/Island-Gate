@@ -51,6 +51,24 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-header-last-items-left-side-card .card-img-top {width: 100%;height: 100px;}
 .dv-nav-left-side-li > ul.dv-long-list {transform: translateY(-50%) translateX(-100%);}
 .dv-second-section-bottom {height: 560px;}
+.dv-ac-bcn-second-section-list > li::marker {content: '»  ';}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(1) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-1.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(2) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-2.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(3) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-3.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(4) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-4.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(5) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-5.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(6) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-6.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(7) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-7.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(8) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-8.png');}
+
+.dv-ac-bcn-second-section-bottom-li {
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+
 .dv-second-section-bottom-item {
     opacity: 0;
     position: absolute;
@@ -136,6 +154,14 @@ textarea.dv-input {resize: none;height: 150px;}
 }
 
 /*Hover, Focus,  active, ...*/
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(1):hover,
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(5):hover,
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(6):hover {opacity: .5;}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(2):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-90-memory.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(3):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-av-3-masures.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(4):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-battery-life.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(7):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-large-cuff-optional.png');}
+.dv-ac-bcn-second-section-bottom-li:nth-of-type(8):hover {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-ac-adaptor-optional.png');}
 .dv-header-top-side:hover {background-color: var(--darker-grey);color: white !important;}
 .dv-input:focus, .dv-input:hover {background-color: white;}
 .dv-submit-btn:hover {background-color: #4d4d4d;}
