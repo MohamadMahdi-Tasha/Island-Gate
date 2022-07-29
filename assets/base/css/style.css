@@ -193,6 +193,8 @@ textarea.dv-input {resize: none;height: 150px;}
     .dv-submit-btn {width: 100%;}
     .dv-second-section-bottom {height: 350px;}
     .dv-mq-991-w-50 {width: 50% !important;}
+    .dv-mq-991-w-100.w-50 {width: 100% !important;}
+    .dv-ch-page-third-section-top-border.w-25 {width: 100% !important;}
 }
 
 @media (max-width: 575px) {
