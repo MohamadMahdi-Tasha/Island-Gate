@@ -39,6 +39,7 @@ a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 .dv-object-cover {object-fit: cover;}
+.dv-ac-bcn-img {opacity: .5;}
 textarea.dv-input {resize: none;height: 150px;}
 .dv-bg-grey {background-color: var(--grey);}
 .dv-site-map-left-side-list {grid-template-columns: repeat(5, 1fr);}
@@ -141,6 +142,7 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-header-list-in-inner-links a:hover, .dv-hover-text-decoration:hover,
 .dv-site-map-left-side-list a:hover{text-decoration: underline !important;}
 .dv-header-last-items-left-side-card:hover {transform: translateY(-10px);}
+.dv-ac-bcn-img:hover {opacity: 1;}
 .dv-nav-left-side-li:hover > .dv-header-list-in-inner-links,
 .dv-nav-left-side-li:hover > .dv-nav-li-link:after,
 .nav-link:hover ~ .dv-nav-links-init,
