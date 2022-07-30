@@ -27,13 +27,15 @@ function showNextItem() {
         firstBottomSecondSection.classList.add('dv-current');
 }
 
-// Calling 'showNextItem' Function Over And Over Again In 5 Seconds (5000ms)
+// Checking If We Have Items With Classes Of dv-second-section-bottom-item In Our Page.
+//  If We Have Then Call 'showNextItem' Function Over And Over Again In 5 Seconds (5000ms). Otherwise, Do Nothing
 if (secondSectionBottomItems !== null) {setInterval(showNextItem, 5000);}
 
 // Scripts Of Open On Load Modals (Bootstrap)
 // Adding Event Listener Of Ready (Its When Page Is Loaded) Then Show openingModal.
 document.onreadystatechange = () => {
     const showOnLoadModal = document.getElementById('dv-open-on-load');
+    // Checking If We Have Element With Id Of dv-open-on-load In Our Page . If We Have Create Bootstrap Modal And Show It Otherwise, Do Nothing
     if (showOnLoadModal !== null) {
         const openOnLoadModals = new bootstrap.Modal(document.getElementById("dv-open-on-load"), {});
         openOnLoadModals.show()
