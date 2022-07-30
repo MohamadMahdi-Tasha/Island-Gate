@@ -1,6 +1,13 @@
 // Variables
 const headerLinkCloseBtns = document.querySelectorAll('.dv-header-link-close-btn');
 const secondSectionBottomItems = document.querySelector('.dv-second-section-bottom-item');
+const showOnLoadModal = document.getElementById('dv-open-on-load');
+
+let openOnLoadModals;
+// Checking If We Have Element With Id Of dv-open-on-load In Our Page . If We Have Create Bootstrap Modal
+if (showOnLoadModal !== null) {
+    openOnLoadModals = new bootstrap.Modal(document.getElementById("dv-open-on-load"), {});
+}
 
 // Scripts Of Nav Bars Close Button
 // Adding Event Listener On Each Init Link Close Buttons That Listens TO Click And Class Of 'dv-closed' To Init Link Holder
@@ -34,10 +41,6 @@ if (secondSectionBottomItems !== null) {setInterval(showNextItem, 5000);}
 // Scripts Of Open On Load Modals (Bootstrap)
 // Adding Event Listener Of Ready (Its When Page Is Loaded) Then Show openingModal.
 document.onreadystatechange = () => {
-    const showOnLoadModal = document.getElementById('dv-open-on-load');
     // Checking If We Have Element With Id Of dv-open-on-load In Our Page . If We Have Create Bootstrap Modal And Show It Otherwise, Do Nothing
-    if (showOnLoadModal !== null) {
-        const openOnLoadModals = new bootstrap.Modal(document.getElementById("dv-open-on-load"), {});
-        openOnLoadModals.show()
-    }
+    if (showOnLoadModal !== null) {openOnLoadModals.show()}
 };
