@@ -70,6 +70,8 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-desktop-page-bottom-calc > a {height: 170px;}
 body > section:last-of-type {margin-bottom: 5rem;}
 .dv-health-care-catalogue-bottom-images-holder > a {box-shadow: 0 0 30px rgba(0,0,0,.3);}
+.dv-gtc-4 {grid-template-columns: repeat(4, 1fr);}
+.dv-gtc-5 {grid-template-columns: repeat(5, 1fr);}
 
 .dv-desktop-page-bottom-calc > a {
     display: flex;
@@ -222,10 +224,15 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-ch-page-third-section-top-border.w-25 {width: 100% !important;}
     .dv-desktop-page-bottom-calc > a:before {font-size: 1rem;}
     .dv-last-subtitle-of-desktop.lh-lg {line-height: normal !important;}
+    .dv-gtc-4 {grid-template-columns: repeat(2, 1fr);}
+    .dv-gtc-5 {grid-template-columns: repeat(2, 1fr);}
+    .dv-gtc-4 .text-center, .dv-gtc-5 .text-center {text-align: left !important;}
 }
 
 @media (max-width: 575px) {
     .dv-site-map-left-side-list {grid-template-columns: repeat(1, 1fr);}
     .dv-site-map-left-side-list a{text-align: start}
     .dv-second-section-bottom {height: 280px;}
+    .dv-gtc-4 {grid-template-columns: repeat(1, 1fr);}
+    .dv-gtc-5 {grid-template-columns: repeat(1, 1fr);}
 }
