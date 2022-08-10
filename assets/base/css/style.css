@@ -69,6 +69,7 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-desktop-page-bottom-calc:nth-of-type(4) > a {background-image: url('../img/desktop/img-4.png');}
 .dv-desktop-page-bottom-calc > a {height: 170px;}
 body > section:last-of-type {margin-bottom: 5rem;}
+.dv-health-care-catalogue-bottom-images-holder > a {box-shadow: 0 0 30px rgba(0,0,0,.3);}
 
 .dv-desktop-page-bottom-calc > a {
     display: flex;
