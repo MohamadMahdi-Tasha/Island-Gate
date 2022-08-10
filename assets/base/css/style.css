@@ -72,6 +72,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-health-care-catalogue-bottom-images-holder > a {box-shadow: 0 0 30px rgba(0,0,0,.3);}
 .dv-gtc-4 {grid-template-columns: repeat(4, 1fr);}
 .dv-gtc-5 {grid-template-columns: repeat(5, 1fr);}
+.dv-gtc-3 {grid-template-columns: repeat(3, 1fr)}
 
 .dv-desktop-page-bottom-calc > a {
     display: flex;
@@ -203,7 +204,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-nav-links-init:hover,
 .dv-nav-links-init:hover ~ .dv-dark-bg,
 .nav-link:hover ~ .dv-dark-bg{opacity: 1;pointer-events: visible;}
-.ldocile-page-bottom-images:hover {background-color: rgba(127,127,127,0.3);}
+.hover-bg-light:hover {background-color: rgba(127,127,127,0.3);}
 
 /*Media Querys*/
 @media (max-width: 991px) {
@@ -224,15 +225,15 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-desktop-page-bottom-calc > a:before {font-size: 1rem;}
     .dv-last-subtitle-of-desktop.lh-lg {line-height: normal !important;}
     .dv-form-holder > .dv-form.w-75 {width: 100% !important;}
-    .dv-gtc-4 {grid-template-columns: repeat(2, 1fr);}
-    .dv-gtc-5 {grid-template-columns: repeat(2, 1fr);}
+    .dv-gtc-4, .dv-gtc-5, .dv-gtc-3 {grid-template-columns: repeat(2, 1fr);}
+    .dv-gtc-3 > :last-of-type, .dv-gtc-5 > :last-of-type {grid-column: span 2;}
 }
 
 @media (max-width: 575px) {
     .dv-site-map-left-side-list {grid-template-columns: repeat(1, 1fr);}
     .dv-site-map-left-side-list a{text-align: start}
     .dv-second-section-bottom {height: 280px;}
-    .dv-gtc-4 {grid-template-columns: repeat(1, 1fr);}
-    .dv-gtc-5 {grid-template-columns: repeat(1, 1fr);}
+    .dv-gtc-4, .dv-gtc-5, .dv-gtc-3 {grid-template-columns: repeat(1, 1fr);}
+    .dv-gtc-3 > :last-of-type, .dv-gtc-5 > :last-of-type {grid-column: span 1;}
     .dv-gtc-4 .text-center, .dv-gtc-5 .text-center {text-align: left !important;}
 }
