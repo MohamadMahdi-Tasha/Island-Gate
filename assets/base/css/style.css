@@ -203,6 +203,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-nav-links-init:hover,
 .dv-nav-links-init:hover ~ .dv-dark-bg,
 .nav-link:hover ~ .dv-dark-bg{opacity: 1;pointer-events: visible;}
+.ldocile-page-bottom-images:hover {background-color: rgba(127,127,127,0.3);}
 
 /*Media Querys*/
 @media (max-width: 991px) {
