@@ -73,6 +73,8 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-gtc-4 {grid-template-columns: repeat(4, 1fr);}
 .dv-gtc-5 {grid-template-columns: repeat(5, 1fr);}
 .dv-gtc-3 {grid-template-columns: repeat(3, 1fr)}
+.bg-video {left: 0;z-index: -1 !important;pointer-events: none}
+.video-content > * {z-index: 1 !important;}
 
 .dv-desktop-page-bottom-calc > a {
     display: flex;
@@ -205,6 +207,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-nav-links-init:hover ~ .dv-dark-bg,
 .nav-link:hover ~ .dv-dark-bg{opacity: 1;pointer-events: visible;}
 .hover-bg-light:hover {background-color: rgba(127,127,127,0.3);}
+.hover-bg-white:hover {background-color: white;}
 
 /*Media Querys*/
 @media (max-width: 991px) {
@@ -227,6 +230,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-form-holder > .dv-form.w-75 {width: 100% !important;}
     .dv-gtc-4, .dv-gtc-5, .dv-gtc-3 {grid-template-columns: repeat(2, 1fr);}
     .dv-gtc-3 > :last-of-type, .dv-gtc-5 > :last-of-type {grid-column: span 2;}
+    .hover-bg-white:hover {background-color: unset;}
 }
 
 @media (max-width: 575px) {
