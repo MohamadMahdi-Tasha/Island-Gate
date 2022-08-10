@@ -738,66 +738,72 @@
 </nav>
 <!--First Section-->
 <section class="d-flex justify-content-center">
-    <main class="container-xxl px-3 py-3 px-lg-5">
-        <img src="assets/base/img/register/img-left-side.png" alt="5 Years Warranty">
-        <h4>CITIZEN Healthcare Products Registration</h4>
-        <p>
-            CITIZEN Products Registration is now automatic! There is no more need to fill up forms or take the time to contact us. Only save your purchase invoice and the serial number which is located in the package and in the bottom of the device, and upon any issue directly contact us at
-            <a href="mailto:info@island-gate.com">info@island-gate.com</a>
-            so we can guide you regarding the warranty procedures.
-        </p>
-        <p>No more hassles, just enjoy your device and we will be ready to help you any time!</p>
-        <form action="#" class="dv-form w-75 gap-1 gap-lg-5 mb-5 row p-0 flex-column flex-lg-row">
-            <div class="col gap-1 gap-lg-3 p-0 d-flex flex-column">
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="name">Name:</label>
-                    <input required class="dv-input dv-transition" type="text" id="name" name="name" placeholder="Enter Your Name">
+    <main class="container-xxl px-3 py-3 px-lg-5 d-flex align-items-start flex-lg-row flex-column">
+        <div class="w-25 sticky-lg-top d-flex justify-content-center dv-mq-991-w-100">
+            <img src="assets/base/img/register/img-left-side.png" alt="5 Years Warranty" class="w-100  left-side-img-register">
+        </div>
+        <div class="w-75 dv-mq-991-w-100">
+            <h3 class="dv-text-darkest-grey mb-3">CITIZEN Healthcare Products Registration</h3>
+            <p class="dv-text-darker-grey lh-lg mb-3">
+                CITIZEN Products Registration is now automatic! There is no more need to fill up forms or take the time to contact us. Only save your purchase invoice and the serial number which is located in the package and in the bottom of the device, and upon any issue directly contact us at
+                <a href="mailto:info@island-gate.com">info@island-gate.com</a>
+                so we can guide you regarding the warranty procedures.
+            </p>
+            <p class="dv-text-darker-grey lh-lg mb-3">No more hassles, just enjoy your device and we will be ready to help you any time!</p>
+            <form action="#" class="dv-form gap-1 gap-lg-5 flex-column flex-lg-row">
+                <div class="d-flex flex-lg-row flex-column align-items-center mb-5 gap-5">
+                    <div class="w-50 dv-mq-991-w-100 p-0 d-flex gap-3 flex-column">
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="name">Name:</label>
+                            <input required class="dv-input dv-transition" type="text" id="name" name="name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="email">Email:</label>
+                            <input required class="dv-input dv-transition" type="email" id="email" name="email" placeholder="Enter Stores Name">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="store-where-purchased">Store where purchased:</label>
+                            <input required class="dv-input dv-transition" type="text" id="store-where-purchased" name="store-where-purchased" placeholder="Enter Stores Name">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="date-when-purchased">Date when purchased:</label>
+                            <input required class="dv-input dv-transition" type="date" id="date-when-purchased" name="date-when-purchased">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="work-home-phone">Work / Home Phone:</label>
+                            <input required class="dv-input dv-transition" type="tel" id="work-home-phone" name="work-home-phone" placeholder="Enter Your Where You Purchased From">
+                        </div>
+                    </div>
+                    <div class="w-50 dv-mq-991-w-100 p-0 d-flex gap-3 flex-column">
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="model">Model:</label>
+                            <input required class="dv-input dv-transition" type="text" id="model" name="model" placeholder="Enter Your WhatsApp Number">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="item-serial-number">Item Serial Number:</label>
+                            <input required class="dv-input dv-transition" type="number" id="item-serial-number" name="item-serial-number" placeholder="Enter Your Item Serial Number">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="country">Country:</label>
+                            <input required class="dv-input dv-transition" type="text" id="country" name="country" placeholder="Enter Your Country">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="lot-number">Item Lot Number:</label>
+                            <input required class="dv-input dv-transition" type="number" id="lot-number" name="lot-number" placeholder="Enter Your LOT Number">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label class="dv-label" for="country-purchased">Country where purchased:</label>
+                            <input required class="dv-input dv-transition" type="text" id="country-purchased" name="country-purchased" placeholder="Enter Your Device Brand">
+                        </div>
+                    </div>
                 </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="email">Email:</label>
-                    <input required class="dv-input dv-transition" type="email" id="email" name="email" placeholder="Enter Stores Name">
+                <div class="d-flex flex-column p-0 align-items-start">
+                    <label class="dv-label" for="massage">Message :</label>
+                    <textarea required class="dv-input dv-transition mb-3 w-100" name="massage" id="massage" placeholder="Enter Your Message."></textarea>
+                    <button type="submit" class="dv-submit-btn dv-transition">Submit</button>
                 </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="store-where-purchased">Store where purchased:</label>
-                    <input required class="dv-input dv-transition" type="text" id="store-where-purchased" name="store-where-purchased" placeholder="Enter Stores Name">
-                </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="date-when-purchased">Date when purchased:</label>
-                    <input required class="dv-input dv-transition" type="date" id="date-when-purchased" name="date-when-purchased">
-                </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="work-home-phone">Work / Home Phone:</label>
-                    <input required class="dv-input dv-transition" type="tel" id="work-home-phone" name="work-home-phone" placeholder="Enter Your Where You Purchased From">
-                </div>
-            </div>
-            <div class="col gap-1 gap-lg-3 p-0 d-flex flex-column">
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="model">Model:</label>
-                    <input required class="dv-input dv-transition" type="text" id="model" name="model" placeholder="Enter Your WhatsApp Number">
-                </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="item-serial-number">Item Serial Number:</label>
-                    <input required class="dv-input dv-transition" type="number" id="item-serial-number" name="item-serial-number" placeholder="Enter Your Item Serial Number">
-                </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="country">Country:</label>
-                    <input required class="dv-input dv-transition" type="text" id="country" name="country" placeholder="Enter Your Country">
-                </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="lot-number">Item Lot Number:</label>
-                    <input required class="dv-input dv-transition" type="number" id="lot-number" name="lot-number" placeholder="Enter Your LOT Number">
-                </div>
-                <div class="d-flex flex-column">
-                    <label class="dv-label" for="country-purchased">Country where purchased:</label>
-                    <input required class="dv-input dv-transition" type="text" id="country-purchased" name="country-purchased" placeholder="Enter Your Device Brand">
-                </div>
-            </div>
-            <div class="d-flex flex-column p-0 align-items-start">
-                <label class="dv-label" for="massage">Message :</label>
-                <textarea required class="dv-input dv-transition mb-3 w-100" name="massage" id="massage" placeholder="Enter Your Message."></textarea>
-                <button type="submit" class="dv-submit-btn dv-transition">Submit</button>
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
 </section>
 <!--Footer-->
