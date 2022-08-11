@@ -29,7 +29,7 @@ ul, ol, li {margin: 0 !important;}
 .dv-fourth-section-bottom-side > img{margin-bottom: -50rem !important;}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
 .dv-text-darker-grey {color: var(--darker-grey) !important;}
-.dv-dark-bg {background-color: rgba(0,0,0,.2);left: 0;z-index: 0;}
+.dv-dark-bg {background-color: rgba(0,0,0,.2);left: 0;z-index: 0;backdrop-filter: blur(10px)}
 .dv-light-bg {background-color: rgba(256,256,256,.2);left: 0;z-index: 0;backdrop-filter: blur(10px)}
 .dv-nav-links-init {left: 0;z-index: 1040;}
 .dv-header-list-in-inner-links > li:not(:last-of-type) {margin-bottom: .25rem !important;}
