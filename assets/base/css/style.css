@@ -55,7 +55,7 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-nav-left-side-li > ul.dv-long-list {transform: translateY(-50%) translateX(-100%);}
 .dv-second-section-bottom {height: 560px;}
 .dv-ac-bcn-second-section-list > li::marker {content: '»  ';}
-.dv-ac-bcn-second-section-bottom-li {height: 100px;}
+.dv-ac-bcn-second-section-bottom-li {height: 80px;}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(1) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-1.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(2) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-2.png');}
 .dv-ac-bcn-second-section-bottom-li:nth-of-type(3) {background-image: url('../img/ch452-ac-bcn/second-section-bottom/img-3.png');}
@@ -94,6 +94,15 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .wrist-bpm-bottom-item:nth-of-type(5) {background-image: url('../img/wrist-bpm/img-5.png');}
 .wrist-bpm-bottom-item:nth-of-type(6) {background-image: url('../img/wrist-bpm/img-6.png');}
 .dv-gtc-2 {grid-template-columns: repeat(2, 1fr);}
+.cta30x-middle-items {height: 80px !important;}
+.cta30x-middle-items:first-of-type {background-image: url('../img/cta30X/middle-side/not-hoverd/img-1.png');}
+.cta30x-middle-items:nth-of-type(2) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-2.png');}
+.cta30x-middle-items:nth-of-type(3) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-3.png');}
+.cta30x-middle-items:nth-of-type(4) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-4.png');}
+.cta30x-middle-items:nth-of-type(5) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-5.png');}
+.cta30x-middle-items:nth-of-type(6) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-6.png');}
+.cta30x-middle-items:nth-of-type(7) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-7.png');}
+.cta30x-middle-items:nth-of-type(8) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-8.png');}
 
 .arm-bpm-bottom-item::after, .wrist-bpm-bottom-item::after {
     content: '';
@@ -103,7 +112,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     text-align: center;
 }
 
-.arm-bpm-bottom-item, .wrist-bpm-bottom-item {
+.arm-bpm-bottom-item, .wrist-bpm-bottom-item , .cta30x-middle-items{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -267,6 +276,14 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .wrist-bpm-bottom-item:nth-of-type(4):hover::after {content: 'CH618';}
 .wrist-bpm-bottom-item:nth-of-type(5):hover::after {content: 'CH650 Black'}
 .wrist-bpm-bottom-item:nth-of-type(6):hover::after {content: 'CH657 Black'}
+.cta30x-middle-items:hover:first-of-type {background-image: url('../img/cta30X/middle-side/hoverd/img-1.png');}
+.cta30x-middle-items:hover:nth-of-type(2) {background-image: url('../img/cta30X/middle-side/hoverd/img-2.png');}
+.cta30x-middle-items:hover:nth-of-type(3) {background-image: url('../img/cta30X/middle-side/hoverd/img-3.png');}
+.cta30x-middle-items:hover:nth-of-type(4) {background-image: url('../img/cta30X/middle-side/hoverd/img-4.png');}
+.cta30x-middle-items:hover:nth-of-type(6) {background-image: url('../img/cta30X/middle-side/hoverd/img-6.png');}
+.cta30x-middle-items:hover:nth-of-type(7) {background-image: url('../img/cta30X/middle-side/hoverd/img-7.png');}
+.cta30x-middle-items:hover:nth-of-type(8) {background-image: url('../img/cta30X/middle-side/hoverd/img-8.png');}
+.cta30x-middle-items:hover:nth-of-type(5) {opacity: .5;}
 
 /*Media Querys*/
 @media (max-width: 991px) {
@@ -299,7 +316,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-site-map-left-side-list {grid-template-columns: repeat(1, 1fr);}
     .dv-site-map-left-side-list a{text-align: start}
     .dv-second-section-bottom {height: 280px;}
-    .dv-gtc-4, .dv-gtc-5, .dv-gtc-3 {grid-template-columns: repeat(1, 1fr);}
+    .dv-gtc-4, .dv-gtc-5:not(.mq-991-no-last-item-col-2), .dv-gtc-3:not(.mq-991-no-last-item-col-2) {grid-template-columns: repeat(1, 1fr);}
     .dv-gtc-3 > :last-of-type, .dv-gtc-5 > :last-of-type {grid-column: span 1;}
     .dv-gtc-4 .text-center, .dv-gtc-5 .text-center {text-align: left !important;}
 }
