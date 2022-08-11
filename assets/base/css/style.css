@@ -85,18 +85,14 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .arm-bpm-bottom-item:nth-of-type(7) {background-image: url('../img/arm-bpm/bottom-side/img-7.png');}
 .arm-bpm-bottom-item:nth-of-type(8) {background-image: url('../img/arm-bpm/bottom-side/img-8.png');}
 .arm-bpm-bottom-item:nth-of-type(9) {background-image: url('../img/arm-bpm/bottom-side/img-9.png');}
-.arm-bpm-bottom-item:first-of-type:hover::after {content: 'CH456';}
-.arm-bpm-bottom-item:nth-of-type(2):hover::after {content: 'CH452'}
-.arm-bpm-bottom-item:nth-of-type(3):hover::after {content: 'CH453'}
-.arm-bpm-bottom-item:nth-of-type(4):hover::after {content: 'CHU306 \a CHUG330';white-space: pre}
-.arm-bpm-bottom-item:nth-of-type(5):hover::after {content: 'CH452 Black'}
-.arm-bpm-bottom-item:nth-of-type(6):hover::after {content: 'CH453 Black'}
-.arm-bpm-bottom-item:nth-of-type(7):hover::after {content: 'CHU304 \a CHU305';white-space: pre}
-.arm-bpm-bottom-item:nth-of-type(8):hover::after {content: 'CHUD514 \a CHUD517';white-space: pre}
-.arm-bpm-bottom-item:nth-of-type(9):hover::after {content: 'CHU503'}
-.arm-bpm-bottom-item:hover {background-image: none;}
+.wrist-bpm-bottom-item:first-of-type {background-image: url('../img/wrist-bpm/img-1.png');}
+.wrist-bpm-bottom-item:nth-of-type(2) {background-image: url('../img/wrist-bpm/img-2.png');}
+.wrist-bpm-bottom-item:nth-of-type(3) {background-image: url('../img/wrist-bpm/img-3.png');}
+.wrist-bpm-bottom-item:nth-of-type(4) {background-image: url('../img/wrist-bpm/img-4.png');}
+.wrist-bpm-bottom-item:nth-of-type(5) {background-image: url('../img/wrist-bpm/img-5.png');}
+.wrist-bpm-bottom-item:nth-of-type(6) {background-image: url('../img/wrist-bpm/img-6.png');}
 
-.arm-bpm-bottom-item::after {
+.arm-bpm-bottom-item::after, .wrist-bpm-bottom-item::after {
     content: '';
     font-size: 2rem;
     color: var(--darkest-grey);
@@ -104,7 +100,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     text-align: center;
 }
 
-.arm-bpm-bottom-item {
+.arm-bpm-bottom-item, .wrist-bpm-bottom-item {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -243,6 +239,27 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .nav-link:hover ~ .dv-dark-bg{opacity: 1;pointer-events: visible;}
 .hover-bg-light:hover {background-color: rgba(127,127,127,0.3);}
 .hover-bg-white:hover {background-color: white;}
+.arm-bpm-bottom-item:first-of-type:hover::after {content: 'CH456';}
+.arm-bpm-bottom-item:nth-of-type(2):hover::after {content: 'CH452'}
+.arm-bpm-bottom-item:nth-of-type(3):hover::after {content: 'CH453'}
+.arm-bpm-bottom-item:nth-of-type(4):hover::after {content: 'CHU306 \a CHUG330';white-space: pre}
+.arm-bpm-bottom-item:nth-of-type(5):hover::after {content: 'CH452 Black'}
+.arm-bpm-bottom-item:nth-of-type(6):hover::after {content: 'CH453 Black'}
+.arm-bpm-bottom-item:nth-of-type(7):hover::after {content: 'CHU304 \a CHU305';white-space: pre}
+.arm-bpm-bottom-item:nth-of-type(8):hover::after {content: 'CHUD514 \a CHUD517';white-space: pre}
+.arm-bpm-bottom-item:nth-of-type(9):hover::after {content: 'CHU503'}
+.arm-bpm-bottom-item:hover, .wrist-bpm-bottom-item:not(:nth-of-type(2)):hover {background-image: none !important;}
+.wrist-bpm-bottom-item:first-of-type {background-image: url('../img/wrist-bpm/img-1.png');}
+.wrist-bpm-bottom-item:nth-of-type(2) {background-image: url('../img/wrist-bpm/img-2.png');}
+.wrist-bpm-bottom-item:nth-of-type(3) {background-image: url('../img/wrist-bpm/img-3.png');}
+.wrist-bpm-bottom-item:nth-of-type(4) {background-image: url('../img/wrist-bpm/img-4.png');}
+.wrist-bpm-bottom-item:nth-of-type(5) {background-image: url('../img/wrist-bpm/img-5.png');}
+.wrist-bpm-bottom-item:nth-of-type(6) {background-image: url('../img/wrist-bpm/img-6.png');}
+.wrist-bpm-bottom-item:first-of-type:hover::after {content: 'CH617';}
+.wrist-bpm-bottom-item:nth-of-type(3):hover::after {content: 'CH657'}
+.wrist-bpm-bottom-item:nth-of-type(4):hover::after {content: 'CH618';}
+.wrist-bpm-bottom-item:nth-of-type(5):hover::after {content: 'CH650 Black'}
+.wrist-bpm-bottom-item:nth-of-type(6):hover::after {content: 'CH657 Black'}
 
 /*Media Querys*/
 @media (max-width: 991px) {
