@@ -281,7 +281,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-last-subtitle-of-desktop.lh-lg {line-height: normal !important;}
     .dv-form-holder > .dv-form.w-75 {width: 100% !important;}
     .dv-gtc-4, .dv-gtc-5, .dv-gtc-3 {grid-template-columns: repeat(2, 1fr);}
-    .dv-gtc-3 > :last-of-type, .dv-gtc-5 > :last-of-type {grid-column: span 2;}
+    .dv-gtc-3:not(.mq-991-no-last-item-col-2) > :last-of-type, .dv-gtc-5:not(.mq-991-no-last-item-col-2) > :last-of-type {grid-column: span 2;}
     .hover-bg-white:hover {background-color: unset;}
     .bg-video {display:none;}
     .mq-991-text-darker-grey {color: var(--darker-grey);}
