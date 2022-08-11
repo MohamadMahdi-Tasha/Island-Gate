@@ -286,7 +286,8 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .cta30x-middle-items:hover:nth-of-type(7) {background-image: url('../img/cta30X/middle-side/hoverd/img-7.png');}
 .cta30x-middle-items:hover:nth-of-type(8) {background-image: url('../img/cta30X/middle-side/hoverd/img-8.png');}
 .cta30x-middle-items:hover:nth-of-type(5) {opacity: .5;}
-
+.dv-bottom-side-images-of-infrared-thermometers:hover > img {opacity: 0;}
+.dv-bottom-side-images-of-infrared-thermometers:hover > h1 {opacity: 1 !important;}
 /*Media Querys*/
 @media (max-width: 1302px) {  .bg-video.dv-differnt {height: 75rem;}  }
 @media (max-width: 1199px) {  .bg-video.dv-differnt {height: 70rem;}  }
