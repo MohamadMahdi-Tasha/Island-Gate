@@ -73,8 +73,43 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-gtc-4 {grid-template-columns: repeat(4, 1fr);}
 .dv-gtc-5 {grid-template-columns: repeat(5, 1fr);}
 .dv-gtc-3 {grid-template-columns: repeat(3, 1fr)}
-.bg-video {left: 0;z-index: -1 !important;pointer-events: none}
-.video-content > * {z-index: 1 !important;}
+.bg-video {z-index: -1;pointer-events: none;}
+.overflowx-hidden {overflow-x: hidden;}
+.video-content {z-index: 1 !important;}
+.arm-bpm-bottom-item:first-of-type {background-image: url('../img/arm-bpm/bottom-side/img-1.png');}
+.arm-bpm-bottom-item:nth-of-type(2) {background-image: url('../img/arm-bpm/bottom-side/img-2.png');}
+.arm-bpm-bottom-item:nth-of-type(3) {background-image: url('../img/arm-bpm/bottom-side/img-3.png');}
+.arm-bpm-bottom-item:nth-of-type(4) {background-image: url('../img/arm-bpm/bottom-side/img-4.png');}
+.arm-bpm-bottom-item:nth-of-type(5) {background-image: url('../img/arm-bpm/bottom-side/img-5.png');}
+.arm-bpm-bottom-item:nth-of-type(6) {background-image: url('../img/arm-bpm/bottom-side/img-6.png');}
+.arm-bpm-bottom-item:nth-of-type(7) {background-image: url('../img/arm-bpm/bottom-side/img-7.png');}
+.arm-bpm-bottom-item:nth-of-type(8) {background-image: url('../img/arm-bpm/bottom-side/img-8.png');}
+.arm-bpm-bottom-item:nth-of-type(9) {background-image: url('../img/arm-bpm/bottom-side/img-9.png');}
+.arm-bpm-bottom-item:first-of-type:hover::after {content: 'CH456';}
+.arm-bpm-bottom-item:nth-of-type(2):hover::after {content: 'CH452'}
+.arm-bpm-bottom-item:nth-of-type(3):hover::after {content: 'CH453'}
+.arm-bpm-bottom-item:nth-of-type(4):hover::after {content: 'CHU306 \a CHUG330';white-space: pre}
+.arm-bpm-bottom-item:nth-of-type(5):hover::after {content: 'CH452 Black'}
+.arm-bpm-bottom-item:nth-of-type(6):hover::after {content: 'CH453 Black'}
+.arm-bpm-bottom-item:nth-of-type(7):hover::after {content: 'CHU304 \a CHU305';white-space: pre}
+.arm-bpm-bottom-item:nth-of-type(8):hover::after {content: 'CHUD514 \a CHUD517';white-space: pre}
+.arm-bpm-bottom-item:nth-of-type(9):hover::after {content: 'CHU503'}
+.arm-bpm-bottom-item:hover {background-image: none;}
+
+.arm-bpm-bottom-item::after {
+    content: '';
+    font-size: 2rem;
+    color: var(--darkest-grey);
+    font-weight: bold;
+    text-align: center;
+}
+
+.arm-bpm-bottom-item {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
 
 .dv-desktop-page-bottom-calc > a {
     display: flex;
@@ -231,6 +266,8 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-gtc-4, .dv-gtc-5, .dv-gtc-3 {grid-template-columns: repeat(2, 1fr);}
     .dv-gtc-3 > :last-of-type, .dv-gtc-5 > :last-of-type {grid-column: span 2;}
     .hover-bg-white:hover {background-color: unset;}
+    .bg-video {display:none;}
+    .mq-991-text-darker-grey {color: var(--darker-grey);}
 }
 
 @media (max-width: 575px) {
