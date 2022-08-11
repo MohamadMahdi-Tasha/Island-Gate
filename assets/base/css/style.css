@@ -42,6 +42,8 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
 .dv-top-side-image img {width: 120px;}
 .dv-top-side-image {opacity: .5;}
 textarea.dv-input {resize: none;height: 150px;}
+.list-marker-» > li::marker {content: '»  ' !important;}
+.bg-video.dv-differnt {min-height: 200vh;}
 .dv-bg-grey {background-color: var(--grey);}
 .dv-site-map-left-side-list {grid-template-columns: repeat(5, 1fr);}
 .dv-site-map-left-side-list img {width: 100%;height: 150px;object-fit: cover;margin-bottom: 1rem;}
