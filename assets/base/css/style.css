@@ -28,7 +28,7 @@ footer a:not(.dv-footer-title),p {font-size: 11px !important;}
 .dv-home-third-section {height: 793px;}
 .dv-home-third-section > a > div {height: 793px;}
 .dv-fourth-bg, section:nth-of-type(4) {height: 900px;}
-.dv-fourth-section-bottom-side > img{margin-bottom: -50rem !important;}
+.dv-fourth-section-bottom-side > img{margin-bottom: -39rem !important;width: 60%;}
 .dv-third-section-content {background-color: rgba(256,256,256,.6);}
 .dv-text-darker-grey {color: var(--darker-grey) !important;}
 .dv-dark-bg {background-color: rgba(0,0,0,.2);left: 0;z-index: 0;backdrop-filter: blur(10px)}
