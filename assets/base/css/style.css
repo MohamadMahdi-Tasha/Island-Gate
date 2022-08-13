@@ -45,7 +45,7 @@ a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180de
 .dv-top-side-image {opacity: .5;}
 textarea.dv-input {resize: none;height: 150px;}
 .list-marker-» > li::marker {content: '»  ' !important;}
-.bg-video.dv-differnt {height: 80rem;}
+.bg-video.dv-differnt {height: 74rem;}
 .dv-bg-grey {background-color: var(--grey);}
 .dv-site-map-left-side-list {grid-template-columns: repeat(5, 1fr);}
 .dv-site-map-left-side-list img {width: 100%;height: 150px;object-fit: cover;margin-bottom: 1rem;}
@@ -292,8 +292,8 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-bottom-side-images-of-infrared-thermometers:hover > h1 {opacity: 1 !important;}
 
 /*Media Querys*/
-@media (max-width: 1302px) {  .bg-video.dv-differnt {height: 75rem;}  }
-@media (max-width: 1199px) {  .bg-video.dv-differnt {height: 70rem;}  }
+@media (max-width: 1199px) {  .bg-video.dv-differnt {height: 72rem;}  }
+@media (max-width: 1101px) {  .bg-video.dv-differnt {height: 71rem;}  }
 @media (max-width: 991px) {
     .dv-site-map-left-side-list {grid-template-columns: repeat(3, 1fr);}
     .dv-fourth-sect{background-color: #fff;}
