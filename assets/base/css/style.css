@@ -107,6 +107,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .cta30x-middle-items:nth-of-type(8) {background-image: url('../img/cta30X/middle-side/not-hoverd/img-8.png');}
 .bg-video:not(.dv-differnt) {height: 60rem;}
 .bg-video.dv-little-diffrent {height: 70rem;}
+.bg-video.dv-differnt {height: 67rem !important;}
 
 .arm-bpm-bottom-item::after, .wrist-bpm-bottom-item::after {
     content: '';
@@ -292,8 +293,8 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-bottom-side-images-of-infrared-thermometers:hover > h1 {opacity: 1 !important;}
 
 /*Media Querys*/
-@media (max-width: 1199px) {  .bg-video.dv-differnt {height: 72rem;}  }
-@media (max-width: 1101px) {  .bg-video.dv-differnt {height: 71rem;}  }
+@media (max-width: 1199px) {  .bg-video.dv-differnt {height: 65rem !important;}  }
+@media (max-width: 1101px) {  .bg-video.dv-differnt {height: 64rem !important;}  }
 @media (max-width: 991px) {
     .dv-site-map-left-side-list {grid-template-columns: repeat(3, 1fr);}
     .dv-fourth-sect{background-color: #fff;}
