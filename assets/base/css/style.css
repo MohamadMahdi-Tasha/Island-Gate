@@ -180,15 +180,16 @@ body > section:last-of-type {margin-bottom: 5rem;}
     font-style: italic;
     color: var(--darker-grey);
     margin-bottom: 1rem;
-    font-size: 1.25rem!important;
-    line-height: 40px;
+    font-size: 16px !important;
+    line-height: 29px;
 }
 
 .dv-title {
     font-weight: bold;
     color: var(--darkest-grey);
-    margin-bottom: 1.5rem;
-    line-height: 40px;
+    margin-bottom: 1rem;
+    font-size: 27px;
+    line-height: 49px;
 }
 
 .nav-link {
