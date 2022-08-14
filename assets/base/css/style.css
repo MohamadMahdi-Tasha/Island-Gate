@@ -323,6 +323,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .mq-991-text-darker-grey {color: var(--darker-grey);}
     .dv-gtc-2 {grid-template-columns: repeat(1, 1fr);}
     .dv-site-map-left-side-list img {object-fit: cover}
+    .dv-mq-991-h-auto {height: auto;}
 }
 
 @media (max-width: 575px) {
