@@ -8,7 +8,7 @@
 /*Styles*/
 body {
     font-size: 14px !important;
-    font-family: Helvetica, Helvetica Neue, Arial, sans-serif !important;
+    font-family: Verdana, Tahoma, Geneva, sans-serif !important;
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@ button {cursor: pointer;}
 ul, ol, li {margin: 0 !important;}
 
 .dv-header-top-side {background-color: var(--grey);}
-.dv-ff-diffrent, .dv-site-map-body {font-family: Verdana, Tahoma, Geneva, sans-serif !important;}
+.dv-ff-diffrent{font-family: Helvetica, Helvetica Neue, Arial, sans-serif !important;}
 .nav-item > a{color: var(--darker-grey) !important;}
 .dv-text-darkest-grey {color: var(--darkest-grey) !important;}
 .dv-transition {transition: .5s;}
