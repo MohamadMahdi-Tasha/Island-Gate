@@ -49,8 +49,8 @@ textarea.dv-input {resize: none;height: 150px;}
 .dv-bg-grey {background-color: var(--grey);}
 .dv-site-map-left-side-list {grid-template-columns: repeat(5, 1fr);}
 .dv-site-map-left-side-list img {width: 100%;height: 130px;object-fit: contain;}
-.dv-site-map-left-side-list a {text-align: center;}
-.dv-site-map-left-side-list > li > a:first-of-type {font-weight: bold;color: var(--darkest-grey);margin-bottom: .5rem;}
+.dv-site-map-left-side-list a {text-align: center;font-size:.7rem;}
+.dv-site-map-left-side-list > li > a:first-of-type {font-weight: bold;color: var(--darkest-grey);}
 .dv-site-map-left-side-list > li > a:not(:first-of-type) {color: var(--darker-grey);}
 .dv-header-last-items-left-side-card .card-title {letter-spacing: 3px;font-size: .7rem;}
 .dv-header-last-items-left-side-card .card-img-top {width: 100%;height: 100px;}
