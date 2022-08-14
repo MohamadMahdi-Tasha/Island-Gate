@@ -321,6 +321,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .bg-video {display:none;}
     .mq-991-text-darker-grey {color: var(--darker-grey);}
     .dv-gtc-2 {grid-template-columns: repeat(1, 1fr);}
+    .dv-site-map-left-side-list img {height: auto;object-fit: cover;}
 }
 
 @media (max-width: 575px) {
