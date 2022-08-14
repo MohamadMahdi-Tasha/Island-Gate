@@ -18,6 +18,7 @@ button {cursor: pointer;}
 ul, ol, li {margin: 0 !important;}
 
 .dv-header-top-side {background-color: var(--grey);}
+.dv-ff-diffrent, .dv-site-map-body {font-family: Verdana, Tahoma, Geneva, sans-serif !important;}
 .nav-item > a{color: var(--darker-grey) !important;}
 .dv-text-darkest-grey {color: var(--darkest-grey) !important;}
 .dv-transition {transition: .5s;}
@@ -109,7 +110,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .bg-video.dv-little-diffrent {height: 70rem;}
 .bg-video.dv-differnt {height: 67rem !important;}
 .dv-object-contain {object-fit: contain;}
-.dv-site-map-right-side a {font-size: .8rem}
+.dv-site-map-right-side a {font-size: .75rem}
 
 .arm-bpm-bottom-item::after, .wrist-bpm-bottom-item::after {
     content: '';
