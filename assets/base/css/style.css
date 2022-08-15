@@ -18,8 +18,11 @@ a {text-decoration: none !important;}
 button {cursor: pointer;}
 ul, ol, li {margin: 0 !important;}
 img {z-index: 1;}
-nav {z-index: 2;}
+nav {z-index: 2 !important;}
 
+.sticky-lg-top {z-index: 1 !important;}
+.dv-w-30 {width: 30%;}
+.dv-w-70 {width: 70%;}
 .dv-header-top-side {background-color: var(--grey);}
 .dv-ff-diffrent{font-family: Helvetica, Helvetica Neue, Arial, sans-serif !important;}
 .nav-item > a{color: var(--darker-grey) !important;}
