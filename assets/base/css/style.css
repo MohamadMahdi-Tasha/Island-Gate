@@ -113,7 +113,10 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .bg-video.dv-little-diffrent {height: 70rem;}
 .bg-video.dv-differnt {height: 67rem !important;}
 .dv-object-contain {object-fit: contain;}
-.dv-site-map-right-side a {font-size: .75rem}
+.dv-site-map-left-side a {display: block;}
+.dv-site-map-right-side a, .dv-site-map-left-side a {font-size: .75rem;}
+.dv-site-map-left-side > li > div > a:first-of-type {font-weight: bold;color: var(--darkest-grey);}
+.dv-site-map-left-side > li > div > a:not(:first-of-type) {color: var(--darker-grey);}
 .dv-input::placeholder {font-style: italic;font-family: Helvetica, Helvetica Neue, Arial, sans-serif !important;}
 .dv-fs-14px {font-size: 14px}
 .dv-fs-16px {font-size: 16px}
@@ -307,11 +310,15 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .cta30x-middle-items:hover:nth-of-type(5) {opacity: .5;}
 .dv-bottom-side-images-of-infrared-thermometers:hover > img {opacity: 0;}
 .dv-bottom-side-images-of-infrared-thermometers:hover > h1 {opacity: 1 !important;}
+.dv-site-map-left-side a:hover {text-decoration: underline !important   }
 
 /*Media Querys*/
 @media (max-width: 1199px) {  .bg-video.dv-differnt {height: 67rem !important;}  }
 @media (max-width: 1101px) {  .bg-video.dv-differnt {height: 80rem !important;}  }
 @media (max-width: 991px) {
+    .dv-site-map-left-side  img {width: 100% !important;height: auto !important;}
+    .dv-site-map-left-side  li {width: 100%;text-align: left !important;}
+    .dv-site-map-right-side a, .dv-site-map-left-side a {font-size: 1rem;}
     .dv-site-map-left-side-list {grid-template-columns: repeat(3, 1fr);}
     .dv-fourth-sect{background-color: #fff;}
     .dv-paragraph, .dv-title {line-height: 30px;}
