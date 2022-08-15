@@ -303,8 +303,8 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-bottom-side-images-of-infrared-thermometers:hover > h1 {opacity: 1 !important;}
 
 /*Media Querys*/
-@media (max-width: 1199px) {  .bg-video.dv-differnt {height: 65rem !important;}  }
-@media (max-width: 1101px) {  .bg-video.dv-differnt {height: 64rem !important;}  }
+@media (max-width: 1199px) {  .bg-video.dv-differnt {height: 67rem !important;}  }
+@media (max-width: 1101px) {  .bg-video.dv-differnt {height: 80rem !important;}  }
 @media (max-width: 991px) {
     .dv-site-map-left-side-list {grid-template-columns: repeat(3, 1fr);}
     .dv-fourth-sect{background-color: #fff;}
