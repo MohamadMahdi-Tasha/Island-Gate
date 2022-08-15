@@ -10,12 +10,15 @@ body {
     font-size: 14px !important;
     font-family: Verdana, Tahoma, Geneva, sans-serif !important;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 img {pointer-events: none;}
 a {text-decoration: none !important;}
 button {cursor: pointer;}
 ul, ol, li {margin: 0 !important;}
+img {z-index: 1;}
+nav {z-index: 2;}
 
 .dv-header-top-side {background-color: var(--grey);}
 .dv-ff-diffrent{font-family: Helvetica, Helvetica Neue, Arial, sans-serif !important;}
@@ -42,7 +45,6 @@ a[data-bs-toggle='collapse'] > svg {transition: .3s;}
 a[data-bs-toggle='collapse'][aria-expanded='true'] > svg{transform: rotate(180deg);}
 .container-xxl {padding-right: 0 !important;padding-left: 0 !important;}
 .dv-object-cover {object-fit: cover;}
-.dv-top-side-image img {width: 90px;}
 .dv-top-side-image {opacity: .5;}
 textarea.dv-input {resize: none;height: 150px;}
 .list-marker-» > li::marker {content: '»  ' !important;}
