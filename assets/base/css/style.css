@@ -322,7 +322,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
     .dv-second-section-bottom {height: 350px;}
     .dv-mq-991-w-50.w-100 {width: 50% !important;}
     .left-side-img-register {transform: rotate(90deg);}
-    .dv-mq-991-w-100.w-50, .dv-mq-991-w-100.w-75, .dv-mq-991-w-100.w-25 {width: 100% !important;}
+    .dv-mq-991-w-100.w-50, .dv-mq-991-w-100.w-75, .dv-mq-991-w-100.w-25, .dv-mq-991-w-100 {width: 100% !important;}
     .dv-ch-page-third-section-top-border.w-25 {width: 100% !important;}
     .dv-desktop-page-bottom-calc > a:before {font-size: 1rem;}
     .dv-last-subtitle-of-desktop.lh-lg {line-height: normal !important;}
