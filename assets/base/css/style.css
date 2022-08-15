@@ -116,6 +116,7 @@ body > section:last-of-type {margin-bottom: 5rem;}
 .dv-site-map-left-side-list a{text-align: center;font-size:11px !important;}
 .dv-instruction-manuals-bottom-side  li {font-size: 11px;}
 .dv-instruction-manuals-bottom-side  ul {background-color: #ececec;height: 150px;}
+.dv-bottom-side-images-of-infrared-thermometers > h1 {font-size: 50px;}
 
 .arm-bpm-bottom-item::after, .wrist-bpm-bottom-item::after {
     content: '';
